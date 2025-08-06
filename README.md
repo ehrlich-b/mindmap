@@ -78,7 +78,7 @@ You're not just learning about topics—you're seeing how an artificial intellig
 
 ## Development Status
 
-See [TODO.md](TODO.md) for the comprehensive roadmap. Currently in Phase 2: Building intermediate structure.
+See [TODO.md](TODO.md) for the comprehensive roadmap. Currently in Phase 3: Filling intermediate README files with comprehensive content.
 
 ---
 
