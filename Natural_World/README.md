@@ -58,3 +58,4 @@ We are part of nature, not separate from it. Our food comes from ecosystems, our
 
 ## Evolution of This Domain
 From viewing nature as infinite resource to recognizing planetary boundaries, human understanding of the natural world has transformed dramatically. Climate change, mass extinction, and ecosystem degradation make this domain increasingly critical for human survival and ethical responsibility.
+

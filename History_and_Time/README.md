@@ -62,3 +62,4 @@ History shapes identity—personal, cultural, and national. It provides lessons 
 
 ## Evolution of This Domain
 From oral traditions to big data history, how we record and understand the past constantly evolves. Digital archives, DNA analysis, and satellite archaeology revolutionize historical research, while debates about historical interpretation reflect contemporary social struggles.
+

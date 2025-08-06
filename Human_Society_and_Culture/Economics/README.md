@@ -93,3 +93,4 @@ Economics affects every aspect of daily life: job availability, housing costs, h
 Economics provides a powerful framework for understanding human behavior and social organization. By focusing on incentives, trade-offs, and unintended consequences, economic thinking illuminates why societies develop as they do and what interventions might improve outcomes. In an interconnected global economy, economic literacy becomes essential for navigating personal finances, career decisions, and civic engagement.
 
 Understanding economics means understanding the systems that determine life chances, resource distribution, and collective prosperity - making it fundamental knowledge for participating in modern society.
+

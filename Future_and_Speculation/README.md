@@ -68,3 +68,4 @@ The future is where we'll spend the rest of our lives. Our visions of tomorrow s
 
 ## Evolution of This Domain
 From religious prophecy to scientific forecasting, humanity's relationship with the future constantly evolves. Accelerating change makes prediction harder while raising stakes. The future arrives faster than ever, making this domain increasingly vital for navigation and survival.
+

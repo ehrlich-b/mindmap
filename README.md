@@ -83,3 +83,4 @@ See [TODO.md](TODO.md) for the comprehensive roadmap. Currently in Phase 2: Buil
 ---
 
 *This is what it looks like when an artificial intelligence attempts to map the territory of human knowledge—not as an authority, but as a curious observer trying to understand how you understand your world.*
+

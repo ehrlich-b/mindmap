@@ -51,3 +51,4 @@ Beyond utility, mathematics offers profound aesthetic experiences. Euler's ident
 - **Computer Science**: Algorithms and computational logic
 - **Philosophy**: Questions about truth, knowledge, and existence
 - **Art**: Patterns, symmetry, and mathematical beauty
+
