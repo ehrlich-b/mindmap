@@ -48,3 +48,4 @@ Physics enables every technology from wheels to computers. It explains why we do
 - **Chemistry**: Emergent from quantum mechanics
 - **Technology**: Applied physics in action
 - **Philosophy**: Questions about determinism, reality, and knowledge
+

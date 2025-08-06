@@ -173,3 +173,4 @@
 - Link to **Human_Society_and_Culture** for environmental movements, nature cultures
 - Link to **Future_and_Speculation** for climate change scenarios, conservation futures
 - Link to **Daily_Life_and_Skills** for nature connection, outdoor activities
+

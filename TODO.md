@@ -112,7 +112,18 @@
 - [ ] Create Social_Evolution folder (Demographics, Culture_Shifts, New_Societies)
 - [ ] Create Existential_Risks folder (Pandemics, Nuclear, AI_Risk, Asteroid_Impact)
 
-## Phase 3: Depth and Granularity Assessment
+## Phase 3: Intermediate README Completion (NEXT PRIORITY)
+- [ ] **Systematically identify placeholder READMEs** (single line `# [folder name]`)
+- [ ] **Fill intermediate READMEs** following comprehensive README patterns:
+  - Why this categorization exists and makes sense
+  - Core concepts and major subdomains 
+  - Key articles planned for this section
+  - Human relevance and connection points
+  - Cross-references to related domains
+- [ ] **Prioritize by domain importance** and logical dependency order
+- [ ] **Maintain breadth-first approach** - complete intermediate structure before leaf articles
+
+## Phase 3b: Depth and Granularity Assessment  
 - [ ] Review each intermediate folder for necessary depth (2-4 levels typical)
 - [ ] Identify cross-cutting themes that need representation in multiple areas
 - [ ] Create symlinks or reference documents for interconnected topics
@@ -200,3 +211,4 @@ Each domain has its own detailed TODO.md with comprehensive article specificatio
 - Focus on human-centric explanations and applications
 - Maintain consistent formatting and style across all documents
 - Update this TODO.md as structure evolves and improves
+

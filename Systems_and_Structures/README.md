@@ -68,3 +68,4 @@ We live within multiple overlapping systems—economic, political, technological
 
 ## Evolution of This Domain
 From simple mechanical systems to complex adaptive systems, our understanding has grown increasingly sophisticated. Digital technology enables unprecedented system complexity while also providing tools for analysis. Climate change and globalization make systems thinking essential for addressing interconnected challenges.
+
