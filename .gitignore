@@ -1,0 +1,32 @@
+# Build output
+/dist/
+
+# Temporary build files
+html-template.html
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node.js (if ever needed)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (for development server)
+__pycache__/
+*.py[cod]
+*$py.class
