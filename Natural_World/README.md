@@ -41,11 +41,13 @@ While science studies nature systematically, this category captures nature as li
 - **Ecosystem Services**: Pollination, water filtration, climate regulation
 - **Energy Flows**: Solar, wind, geothermal, tidal
 
-### Conservation and Environment
-- **Biodiversity Loss**: Extinction and habitat destruction
-- **Climate Change**: Anthropogenic warming and its impacts
-- **Pollution**: Chemical, plastic, noise, and light
-- **Conservation Strategies**: Protection, restoration, sustainable use
+### [Conservation](Conservation/)
+Protecting and restoring Earth's biodiversity and ecosystems
+- **Biodiversity Loss**: Extinction crisis and habitat destruction
+- **Protected Areas**: Parks, reserves, and conservation lands
+- **Restoration Ecology**: Repairing damaged ecosystems
+- **Conservation Strategies**: In-situ, ex-situ, and community-based approaches
+- **Success Stories**: Species and ecosystems saved from extinction
 
 ## Human Relevance
 We are part of nature, not separate from it. Our food comes from ecosystems, our water from natural cycles, our oxygen from photosynthesis. Understanding the natural world helps us live sustainably, appreciate Earth's beauty, and recognize our role as both beneficiaries and stewards of the biosphere.
