@@ -48,6 +48,8 @@ The organizational structure itself teaches. Why does Philosophy_and_Cognition s
 
 Start anywhere that interests you. Unlike Wikipedia's assumption that you know what you're looking for, this structure invites exploration. Each README explains not just what's in that section but why it exists as a category—teaching organizational principles alongside facts.
 
+**📖 [NAVIGATION.md](NAVIGATION.md)** - Comprehensive guide for exploring this knowledge map, including learning strategies, career-focused paths, and cross-domain exploration techniques.
+
 ## The Meta-Message
 
 This project is simultaneously:
