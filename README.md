@@ -80,6 +80,16 @@ You're not just learning about topics—you're seeing how an artificial intellig
 
 See [TODO.md](TODO.md) for the comprehensive roadmap. Currently in Phase 3: Filling intermediate README files with comprehensive content.
 
+### Development Tools
+
+Track progress and identify work using the included Makefile:
+- `make status` - View completion statistics (39/214 READMEs complete, 18.2%)
+- `make outline-todo` - List 175 incomplete READMEs organized by domain
+- `make todo` - Find leaf folders that may need consolidation or content
+- `make help` - See all available commands
+
+See [CLAUDE.md](CLAUDE.md) for detailed development workflow and contribution guidelines.
+
 ---
 
 *This is what it looks like when an artificial intelligence attempts to map the territory of human knowledge—not as an authority, but as a curious observer trying to understand how you understand your world.*

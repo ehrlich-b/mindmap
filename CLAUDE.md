@@ -77,11 +77,60 @@ The framework now provides:
 - **Cross-domain connections** - Mapped relationships between knowledge areas
 - **Human-centric approach** - All content specified to emphasize relevance to human experience
 
+## Development Tools
+
+### Make Commands
+The project includes a comprehensive Makefile with development and maintenance commands:
+
+**📋 Development Commands:**
+- `make status` - Show overall project completion statistics
+- `make outline-todo` - List folders with blank/placeholder READMEs (< 5 lines)  
+- `make todo` - List leaf folders with insufficient articles (< 4 + README)
+- `make help` - Show all available commands
+
+**🏗️ Build Commands:**
+- `make format` - Format markdown files (normalize spacing, line endings)
+- `make build` - Convert markdown to HTML in dist/ folder (requires pandoc)
+- `make serve` - Start development server for HTML version
+- `make clean` - Remove build artifacts
+
+**Usage Examples:**
+```bash
+# Check project status and identify work needed
+make status
+
+# See which READMEs need completion
+make outline-todo
+
+# Find folders that might be over-granular
+make todo
+
+# Format all markdown files
+make format
+```
+
+### Development Workflow
+
+**⚠️ CRITICAL: Session Re-anchoring**
+After any compact or when starting a new session, ALWAYS re-read these core files to re-anchor context:
+1. `README.md` - Project overview and current status
+2. `TODO.md` - Master roadmap and phase tracking  
+3. `BUILD.md` - Development tools and workflow
+4. `CLAUDE.md` - This file with project guidelines
+
+**Standard Development Process:**
+1. Run `make status` to see overall completion
+2. Use `make outline-todo` to prioritize README completion
+3. Use `make todo` to identify structural issues
+4. Focus on completing high-priority READMEs first
+5. Use `make format` to maintain consistent formatting
+
 ## Contribution Guidelines
 - Maintain consistent folder naming (Title_Case_With_Underscores)
-- README files should be rich and comprehensive
+- README files should be rich and comprehensive (≥5 lines meaningful content)
 - TODO files should clearly specify article requirements
 - Preserve the human-centric perspective throughout
-- Focus on structure and roadmapping over article writing 
+- Focus on structure and roadmapping over article writing
+- Use the make commands to track progress and identify priorities 
 
 
