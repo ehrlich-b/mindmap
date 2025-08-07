@@ -90,6 +90,27 @@ Track progress and identify work using the included Makefile:
 
 See [CLAUDE.md](CLAUDE.md) for detailed development workflow and contribution guidelines.
 
+## AI Models and Development Tools
+
+This knowledge map was created using **Claude Code**, Anthropic's agentic command-line tool for AI-assisted software development. The project represents a collaboration between different AI models, each contributing their strengths:
+
+### Model Attribution
+- **Claude Opus 4.1**: Created the comprehensive structural outline, domain organization, and detailed content specifications across all 12 knowledge domains (~1100+ planned articles)
+- **Claude Sonnet 4**: Implemented the systematic README completion work, filling intermediate documentation with comprehensive content following the established patterns
+
+### Development Process
+The project demonstrates AI models working systematically across different scales:
+1. **Strategic Planning** (Opus): High-level architecture, domain relationships, and comprehensive roadmapping
+2. **Systematic Implementation** (Sonnet): Detailed documentation creation, consistent formatting, and breadth-first content development
+3. **Tool Integration**: Leveraging Claude Code's capabilities for file management, progress tracking, and automated development workflows
+
+### Technical Context
+- **Claude Code**: Anthropic's agentic CLI tool enabling AI models to read, write, and manage code repositories
+- **Version**: Generated using models available in Claude Code as of August 2025
+- **Methodology**: Breadth-first approach prioritizing complete structural foundation before detailed article creation
+
+This attribution provides important context for understanding the knowledge map as both a repository of information and an artifact demonstrating AI collaborative capabilities in systematic knowledge organization.
+
 ---
 
 *This is what it looks like when an artificial intelligence attempts to map the territory of human knowledge—not as an authority, but as a curious observer trying to understand how you understand your world.*
