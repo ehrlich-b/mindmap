@@ -27,10 +27,41 @@ sudo apt-get install pandoc make
 
 ## Available Commands
 
-### `make help`
+### Development Commands
+
+#### `make status`
+Shows overall project completion statistics including:
+- Total folders, READMEs, and articles
+- Completion percentages
+- Current development phase
+
+**Usage:**
+```bash
+make status
+```
+
+#### `make outline-todo`
+Lists folders with blank/placeholder READMEs (less than 5 lines) organized by domain. Essential for identifying which documentation needs completion.
+
+**Usage:**
+```bash
+make outline-todo
+```
+
+#### `make todo`
+Lists leaf folders (containing no subfolders) with insufficient content (< 4 articles + README). Helps identify over-granular structure that should be consolidated.
+
+**Usage:**
+```bash
+make todo
+```
+
+### Build Commands
+
+#### `make help`
 Shows all available targets with descriptions.
 
-### `make format`
+#### `make format`
 Formats all markdown files by:
 - Adding newline at end of file if missing
 - Removing excessive blank lines (more than 2 consecutive)
@@ -113,27 +144,52 @@ The generated HTML includes:
 
 ## Development Workflow
 
-### 1. Content Creation
+### 1. Assess Project Status
 ```bash
-# Edit markdown files
-vim README.md
-vim Science_and_Mathematics/TODO.md
+# Check overall completion statistics
+make status
+
+# See which READMEs need completion (175 incomplete)
+make outline-todo
+
+# Find folders that may need consolidation
+make todo
 ```
 
-### 2. Format and Build
+### 2. Content Creation
+```bash
+# Prioritize based on outline-todo output
+# Focus on Science_and_Mathematics (43 incomplete READMEs)
+vim Science_and_Mathematics/Physics/README.md
+vim Science_and_Mathematics/Mathematics/Calculus/README.md
+```
+
+### 3. Format and Build
 ```bash
 # Format all files and build HTML
 make
+
+# Or just format without building
+make format
 ```
 
-### 3. Preview Changes
+### 4. Preview Changes
 ```bash
 # Start development server
 make serve
 # Open http://localhost:8000
 ```
 
-### 4. Deploy
+### 5. Track Progress
+```bash
+# Check completion progress regularly
+make status
+
+# Identify remaining work
+make outline-todo
+```
+
+### 6. Deploy
 ```bash
 # Copy dist/html/ contents to web server
 rsync -av dist/html/ user@server:/var/www/mindmap/

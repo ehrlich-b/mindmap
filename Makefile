@@ -177,18 +177,119 @@ clean: clean-dist
 watch:
 	@echo "Watch mode not implemented. Use 'make build' to rebuild manually."
 
+# Development and maintenance commands
+
+# Find folders with blank/placeholder READMEs (less than 5 lines)
+.PHONY: outline-todo
+outline-todo:
+	@echo "=== FOLDERS WITH BLANK/PLACEHOLDER READMEs ==="
+	@echo "(READMEs with less than 5 lines)"
+	@echo ""
+	@total=0; \
+	for domain in Science_and_Mathematics Technology_and_Computing Human_Society_and_Culture Arts_and_Expression Philosophy_and_Cognition Natural_World Health_and_Medicine Language_and_Communication History_and_Time Daily_Life_and_Skills Systems_and_Structures Future_and_Speculation; do \
+		echo "📁 $$domain:"; \
+		count=0; \
+		if [ -f "$$domain/README.md" ] && [ $$(wc -l < "$$domain/README.md" | tr -d ' ') -lt 5 ]; then \
+			echo "  - $$domain/README.md"; \
+			count=$$((count + 1)); \
+		fi; \
+		$(FIND) "$$domain" -name "README.md" -type f | while read -r readme; do \
+			if [ $$(wc -l < "$$readme" | tr -d ' ') -lt 5 ]; then \
+				echo "  - $$readme"; \
+			fi; \
+		done | head -20; \
+		domain_total=$$($(FIND) "$$domain" -name "README.md" -type f -exec sh -c 'if [ $$(wc -l < "$$1" | tr -d " ") -lt 5 ]; then echo "$$1"; fi' _ {} \; | wc -l | tr -d ' '); \
+		if [ $$domain_total -gt 0 ]; then \
+			echo "  Total: $$domain_total incomplete READMEs"; \
+		else \
+			echo "  ✅ All READMEs complete"; \
+		fi; \
+		echo ""; \
+		total=$$((total + domain_total)); \
+	done; \
+	echo "🎯 Total incomplete READMEs across all domains: $$total"
+
+# Find leaf folders (containing no subfolders) with insufficient content
+# Leaf folders should have at least 4 articles + README to justify existence
+.PHONY: todo
+todo:
+	@echo "=== LEAF FOLDERS WITH INSUFFICIENT ARTICLES ==="
+	@echo "(Folders with no subfolders that have < 4 articles + README)"
+	@echo ""
+	@total=0; \
+	for domain in Science_and_Mathematics Technology_and_Computing Human_Society_and_Culture Arts_and_Expression Philosophy_and_Cognition Natural_World Health_and_Medicine Language_and_Communication History_and_Time Daily_Life_and_Skills Systems_and_Structures Future_and_Speculation; do \
+		echo "📁 $$domain:"; \
+		domain_count=0; \
+		$(FIND) "$$domain" -type d | while read -r dir; do \
+			if [ "$$dir" != "$$domain" ]; then \
+				subdir_count=$$($(FIND) "$$dir" -mindepth 1 -maxdepth 1 -type d | wc -l | tr -d ' '); \
+				if [ $$subdir_count -eq 0 ]; then \
+					md_count=$$($(FIND) "$$dir" -maxdepth 1 -name "*.md" -type f | wc -l | tr -d ' '); \
+					if [ $$md_count -lt 5 ]; then \
+						echo "  - $$dir ($$md_count files)"; \
+					fi; \
+				fi; \
+			fi; \
+		done; \
+		domain_total=$$($(FIND) "$$domain" -type d -exec sh -c 'subdir_count=$$(find "$$1" -mindepth 1 -maxdepth 1 -type d | wc -l | tr -d " "); if [ $$subdir_count -eq 0 ] && [ "$$1" != "'$$domain'" ]; then md_count=$$(find "$$1" -maxdepth 1 -name "*.md" -type f | wc -l | tr -d " "); if [ $$md_count -lt 5 ]; then echo "$$1"; fi; fi' _ {} \; | wc -l | tr -d ' '); \
+		if [ $$domain_total -gt 0 ]; then \
+			echo "  Total: $$domain_total underpopulated folders"; \
+		else \
+			echo "  ✅ All leaf folders have sufficient content"; \
+		fi; \
+		echo ""; \
+		total=$$((total + domain_total)); \
+	done; \
+	echo "📝 Total underpopulated leaf folders: $$total"
+
+# Show overall project status
+.PHONY: status
+status:
+	@echo "=== MIND MAP PROJECT STATUS ==="
+	@echo ""
+	@total_folders=$$($(FIND) . -type d | grep -v "^\.$$" | grep -v "./\.git" | grep -v "./dist" | wc -l | tr -d ' '); \
+	total_readmes=$$($(FIND) . -name "README.md" -type f | wc -l | tr -d ' '); \
+	complete_readmes=$$($(FIND) . -name "README.md" -type f -exec sh -c 'if [ $$(wc -l < "$$1" | tr -d " ") -ge 5 ]; then echo "$$1"; fi' _ {} \; | wc -l | tr -d ' '); \
+	incomplete_readmes=$$((total_readmes - complete_readmes)); \
+	total_articles=$$($(FIND) . -name "*.md" -type f ! -name "README.md" ! -name "TODO.md" ! -name "CLAUDE.md" ! -name "NAVIGATION.md" ! -name "BUILD.md" | wc -l | tr -d ' '); \
+	echo "📊 Structure:"; \
+	echo "  - Total folders: $$total_folders"; \
+	echo "  - Total README files: $$total_readmes"; \
+	echo "  - Complete READMEs (≥5 lines): $$complete_readmes"; \
+	echo "  - Incomplete READMEs (<5 lines): $$incomplete_readmes"; \
+	if command -v bc >/dev/null 2>&1; then \
+		completion_rate=$$(echo "scale=1; $$complete_readmes * 100 / $$total_readmes" | bc -l); \
+		echo "  - README completion: $${completion_rate}%"; \
+	else \
+		echo "  - README completion: $$((complete_readmes * 100 / total_readmes))%"; \
+	fi; \
+	echo ""; \
+	echo "📝 Content:"; \
+	echo "  - Total articles: $$total_articles"
+	@echo ""
+	@echo "🎯 Current Phase: README completion (Phase 3)"
+	@echo ""
+	@echo "Next steps:"
+	@echo "  1. Run 'make outline-todo' to see incomplete READMEs"
+	@echo "  2. Run 'make todo' to see underpopulated leaf folders"
+
 # Help target
 .PHONY: help
 help:
 	@echo "Mind Map Project Makefile"
 	@echo ""
-	@echo "Available targets:"
+	@echo "🏗️  Build targets:"
 	@echo "  all           - Format files and build HTML (default)"
 	@echo "  format        - Format markdown files (add newlines, remove excess blank lines)"
 	@echo "  build         - Convert markdown to HTML in dist/ folder"
 	@echo "  serve         - Start development server (requires Python)"
 	@echo "  clean         - Remove all build artifacts"
 	@echo "  clean-dist    - Remove only the dist/ directory"
+	@echo ""
+	@echo "📋 Development targets:"
+	@echo "  outline-todo  - List folders with blank/placeholder READMEs (< 5 lines)"
+	@echo "  todo          - List leaf folders with insufficient articles (< 4 + README)"
+	@echo "  status        - Show overall project completion status"
 	@echo "  help          - Show this help message"
 	@echo ""
 	@echo "Requirements:"
@@ -198,4 +299,4 @@ help:
 	@echo "The dist/ folder is automatically gitignored."
 
 # Declare phony targets
-.PHONY: all format build serve clean help watch format-files clean-dist setup-dist copy-assets create-css create-template
+.PHONY: all format build serve clean help watch format-files clean-dist setup-dist copy-assets create-css create-template outline-todo todo status
