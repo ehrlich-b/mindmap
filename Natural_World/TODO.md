@@ -3,7 +3,7 @@
 ## PRIORITY_HIGH
 
 ### Animals
-- [ ] **Primates.md** | Animals/Mammals | Our closest relatives, intelligence, social behavior, conservation
+- [x] **Primates.md** | Animals/Mammals | Our closest relatives, intelligence, social behavior, conservation
 - [ ] **Carnivores.md** | Animals/Mammals | Cats, dogs, bears - predators and their ecological roles
 - [ ] **Herbivores.md** | Animals/Mammals | Deer, elephants, cattle - plant-eaters and ecosystem impact
 - [ ] **Marine_Mammals.md** | Animals/Mammals | Whales, dolphins, seals - ocean adaptations and intelligence
