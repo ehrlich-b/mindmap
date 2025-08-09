@@ -3,7 +3,7 @@
 ## PRIORITY_HIGH
 
 ### Ancient_History
-- [ ] **Human_Evolution.md** | Ancient_History/Prehistoric_Era | Homo sapiens emergence, out of Africa, early migrations
+- [x] **Human_Evolution.md** | Ancient_History/Prehistoric_Era | Homo sapiens emergence, out of Africa, early migrations
 - [ ] **Stone_Age.md** | Ancient_History/Prehistoric_Era | Tool development, hunter-gatherer societies, cave art, fire control
 - [ ] **Agricultural_Revolution.md** | Ancient_History/Prehistoric_Era | Farming beginnings, domestication, settlement, population growth
 - [ ] **Bronze_Age.md** | Ancient_History/Prehistoric_Era | Metal working, trade networks, early kingdoms, technological advance

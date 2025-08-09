@@ -3,7 +3,7 @@
 ## PRIORITY_HIGH
 
 ### Western_Philosophy
-- [ ] **Socrates.md** | Western_Philosophy/Ancient_Philosophy | Know thyself, the unexamined life, and the Socratic method
+- [x] **Socrates.md** | Western_Philosophy/Ancient_Philosophy | Know thyself, the unexamined life, and the Socratic method
 - [ ] **Plato.md** | Western_Philosophy/Ancient_Philosophy | Theory of forms, the cave allegory, and ideal state
 - [ ] **Aristotle.md** | Western_Philosophy/Ancient_Philosophy | Logic, ethics, politics, and empirical observation
 - [ ] **Stoicism.md** | Western_Philosophy/Ancient_Philosophy | Virtue, acceptance, and emotional resilience

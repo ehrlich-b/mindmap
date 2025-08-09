@@ -3,8 +3,8 @@
 ## PRIORITY_HIGH
 
 ### Programming - Languages
-- [ ] **Python.md** | Programming/Languages | Versatile scripting language for data science and web
-- [ ] **JavaScript.md** | Programming/Languages | Language of the web and increasingly servers
+- [x] **Python.md** | Programming/Languages | Versatile scripting language for data science and web
+- [x] **JavaScript.md** | Programming/Languages | Language of the web and increasingly servers
 - [ ] **Java.md** | Programming/Languages | Enterprise applications and Android development
 - [ ] **C_and_CPlusPlus.md** | Programming/Languages | System programming and performance-critical code
 - [ ] **Rust.md** | Programming/Languages | Memory-safe systems programming

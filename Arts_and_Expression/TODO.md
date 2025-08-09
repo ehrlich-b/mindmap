@@ -3,7 +3,7 @@
 ## PRIORITY_HIGH
 
 ### Visual_Arts
-- [ ] **Oil_Painting.md** | Visual_Arts/Painting | Traditional medium, techniques, Renaissance masters, contemporary use
+- [x] **Oil_Painting.md** | Visual_Arts/Painting | Traditional medium, techniques, Renaissance masters, contemporary use
 - [ ] **Watercolor.md** | Visual_Arts/Painting | Transparency, flow, landscape painting, spontaneous effects
 - [ ] **Acrylic_Painting.md** | Visual_Arts/Painting | Versatile modern medium, quick drying, mixed media possibilities
 - [ ] **Abstract_Art.md** | Visual_Arts/Painting | Non-representational expression, Kandinsky to Pollock, emotional communication

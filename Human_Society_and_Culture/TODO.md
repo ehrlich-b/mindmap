@@ -3,8 +3,8 @@
 ## PRIORITY_HIGH
 
 ### Social_Structures - Family
-- [ ] **Nuclear_Family.md** | Social_Structures/Family | Parents and children as basic unit across cultures
-- [ ] **Extended_Family.md** | Social_Structures/Family | Grandparents, aunts, uncles, cousins in social structure
+- [x] **Nuclear_Family.md** | Social_Structures/Family | Parents and children as basic unit across cultures
+- [x] **Extended_Family.md** | Social_Structures/Family | Grandparents, aunts, uncles, cousins in social structure
 - [ ] **Marriage_and_Partnership.md** | Social_Structures/Family | Pair bonding, legal unions, cultural variations
 - [ ] **Parenting.md** | Social_Structures/Family | Child-rearing practices, attachment, development
 - [ ] **Family_Dynamics.md** | Social_Structures/Family | Roles, power structures, communication patterns
