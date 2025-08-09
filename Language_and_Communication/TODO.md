@@ -4,8 +4,8 @@
 
 ### Linguistics
 - [x] **What_is_Language.md** | Linguistics/Fundamental_Concepts | Defining human language, animal communication differences, universals
-- [ ] **Language_Acquisition.md** | Linguistics/Fundamental_Concepts | How children learn language, critical periods, stages of development
-- [ ] **Language_Evolution.md** | Linguistics/Fundamental_Concepts | How language originated, theories, fossil evidence, development
+- [x] **Language_Acquisition.md** | Linguistics/Fundamental_Concepts | How children learn language, critical periods, stages of development
+- [x] **Language_Evolution.md** | Linguistics/Fundamental_Concepts | How language originated, theories, fossil evidence, development
 - [ ] **Linguistic_Relativity.md** | Linguistics/Fundamental_Concepts | Sapir-Whorf hypothesis, does language shape thought?, evidence
 - [ ] **Universal_Grammar.md** | Linguistics/Fundamental_Concepts | Chomsky's theory, innate language faculty, principles and parameters
 - [ ] **Language_Change.md** | Linguistics/Fundamental_Concepts | How languages evolve over time, sound changes, semantic shifts

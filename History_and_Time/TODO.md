@@ -4,8 +4,8 @@
 
 ### Ancient_History
 - [x] **Human_Evolution.md** | Ancient_History/Prehistoric_Era | Homo sapiens emergence, out of Africa, early migrations
-- [ ] **Stone_Age.md** | Ancient_History/Prehistoric_Era | Tool development, hunter-gatherer societies, cave art, fire control
-- [ ] **Agricultural_Revolution.md** | Ancient_History/Prehistoric_Era | Farming beginnings, domestication, settlement, population growth
+- [x] **Stone_Age.md** | Ancient_History/Prehistoric_Era | Tool development, hunter-gatherer societies, cave art, fire control
+- [x] **Agricultural_Revolution.md** | Ancient_History/Prehistoric_Era | Farming beginnings, domestication, settlement, population growth
 - [ ] **Bronze_Age.md** | Ancient_History/Prehistoric_Era | Metal working, trade networks, early kingdoms, technological advance
 - [ ] **Iron_Age.md** | Ancient_History/Prehistoric_Era | Superior tools, military advantage, cultural development, writing systems
 - [ ] **Mesopotamia.md** | Ancient_History/Early_Civilizations | Sumerians, Babylonians, cuneiform, first cities, Hammurabi's Code

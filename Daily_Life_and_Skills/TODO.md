@@ -6,7 +6,7 @@
 - [x] **Basic_Cooking_Techniques.md** | Home_and_Living/Cooking | Boiling, frying, baking, roasting, grilling fundamentals
 - [x] **Knife_Skills.md** | Home_and_Living/Cooking | Cutting techniques, safety, maintenance, choosing knives
 - [ ] **Meal_Planning.md** | Home_and_Living/Cooking | Weekly planning, budgeting, nutritional balance, time management
-- [ ] **Food_Safety.md** | Home_and_Living/Cooking | Proper storage, temperatures, preventing foodborne illness
+- [x] **Food_Safety.md** | Home_and_Living/Cooking | Proper storage, temperatures, preventing foodborne illness
 - [ ] **Baking_Basics.md** | Home_and_Living/Cooking | Measuring, mixing, rising, oven techniques, troubleshooting
 - [ ] **International_Cuisines.md** | Home_and_Living/Cooking | Italian, Asian, Mexican, French cooking fundamentals
 - [ ] **Kitchen_Equipment.md** | Home_and_Living/Cooking | Essential tools, appliances, setup, maintenance
