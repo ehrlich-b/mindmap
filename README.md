@@ -62,7 +62,10 @@ Start by browsing the main domains above, then drill down into areas that intere
 
 ```bash
 make status        # Project completion statistics
-make outline-todo  # Find READMEs that need completion
+make priority-high # Show all 130 HIGH priority articles for Phase 4
+make next-articles # Suggest next 20 articles to write (balanced)
+make article-todo  # List high-priority articles by domain
+make todo         # Find folders that need more articles
 make help         # All available commands
 ```
 

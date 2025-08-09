@@ -264,14 +264,40 @@ status:
 		echo "  - README completion: $$((complete_readmes * 100 / total_readmes))%"; \
 	fi; \
 	echo ""; \
-	echo "📝 Content:"; \
-	echo "  - Total articles: $$total_articles"
+	echo "📝 Content & Articles:"; \
+	echo "  - Current articles: $$total_articles"; \
+	total_high=0; total_medium=0; total_low=0; \
+	for domain in Science_and_Mathematics Technology_and_Computing Human_Society_and_Culture Arts_and_Expression Philosophy_and_Cognition Natural_World Health_and_Medicine Language_and_Communication History_and_Time Daily_Life_and_Skills Systems_and_Structures Future_and_Speculation; do \
+		if [ -f "$$domain/TODO.md" ]; then \
+			high_count=$$(sed -n '/^## PRIORITY_HIGH/,/^## PRIORITY_MEDIUM/p' "$$domain/TODO.md" | grep "^- \[ \]" | wc -l | tr -d ' '); \
+			medium_count=$$(sed -n '/^## PRIORITY_MEDIUM/,/^## PRIORITY_LOW/p' "$$domain/TODO.md" | grep "^- \[ \]" | wc -l | tr -d ' '); \
+			low_count=$$(sed -n '/^## PRIORITY_LOW/,/^## /p' "$$domain/TODO.md" | grep "^- \[ \]" | wc -l | tr -d ' '); \
+			total_high=$$((total_high + high_count)); \
+			total_medium=$$((total_medium + medium_count)); \
+			total_low=$$((total_low + low_count)); \
+		fi; \
+	done; \
+	total_planned=$$((total_high + total_medium + total_low)); \
+	echo "  - HIGH priority articles: $$total_high planned"; \
+	echo "  - MEDIUM priority articles: $$total_medium planned"; \
+	echo "  - LOW priority articles: $$total_low planned"; \
+	echo "  - Total articles planned: $$total_planned"; \
+	if command -v bc >/dev/null 2>&1 && [ $$total_planned -gt 0 ]; then \
+		article_completion=$$(echo "scale=1; $$total_articles * 100 / $$total_planned" | bc -l); \
+		echo "  - Article completion: $${article_completion}%"; \
+	elif [ $$total_planned -gt 0 ]; then \
+		article_completion=$$((total_articles * 100 / total_planned)); \
+		echo "  - Article completion: $${article_completion}%"; \
+	else \
+		echo "  - Article completion: 0%"; \
+	fi
 	@echo ""
-	@echo "🎯 Current Phase: README completion (Phase 3)"
+	@echo "🎯 Current Phase: Article Creation (Phase 4) - Ready to Begin"
 	@echo ""
 	@echo "Next steps:"
-	@echo "  1. Run 'make outline-todo' to see incomplete READMEs"
-	@echo "  2. Run 'make todo' to see underpopulated leaf folders"
+	@echo "  1. Run 'make priority-high' to see 782 foundational articles"
+	@echo "  2. Run 'make next-articles' for balanced selection across domains"
+	@echo "  3. Start with HIGH priority articles using domain TODO.md specifications"
 
 # Help target
 .PHONY: help
@@ -289,8 +315,20 @@ help:
 	@echo "📋 Development targets:"
 	@echo "  outline-todo  - List folders with blank/placeholder READMEs (< 5 lines)"
 	@echo "  todo          - List leaf folders with insufficient articles (< 4 + README)"
+	@echo "  article-todo  - List articles by priority (see usage below)"
+	@echo "  priority-high - Alias for 'make article-todo priority=high' (legacy)"
+	@echo "  next-articles - Suggest next 24 articles balanced across domains"
+	@echo "  todo-refactor - Identify TODO.md files needing format refactoring"
 	@echo "  status        - Show overall project completion status"
 	@echo "  help          - Show this help message"
+	@echo ""
+	@echo "📝 Article Todo Usage:"
+	@echo "  make article-todo                   - Show ALL HIGH priority articles (default)"
+	@echo "  make article-todo priority=medium   - Show ALL MEDIUM priority articles"
+	@echo "  make article-todo priority=low      - Show ALL LOW priority articles"
+	@echo "  make article-todo priority=all      - Show all priorities with completion breakdown"
+	@echo "  make article-todo limit=10          - Show first 10 articles per domain"
+	@echo "  make article-todo show_completed=false - Hide completed articles, show only remaining"
 	@echo ""
 	@echo "Requirements:"
 	@echo "  - pandoc (for markdown to HTML conversion)"
@@ -298,5 +336,175 @@ help:
 	@echo ""
 	@echo "The dist/ folder is automatically gitignored."
 
+# Unified article listing with priority filtering
+# Usage: make article-todo [priority=high|medium|low|all] [limit=N] [full=true]
+.PHONY: article-todo
+article-todo:
+	@priority="$(if $(priority),$(priority),high)"; \
+	limit="$(if $(limit),$(limit),999999)"; \
+	show_completed="$(if $(show_completed),$(show_completed),true)"; \
+	case "$$priority" in \
+		high) \
+			echo "=== HIGH PRIORITY ARTICLES ==="; \
+			section_start="## PRIORITY_HIGH"; \
+			section_end="## PRIORITY_MEDIUM"; \
+			;; \
+		medium) \
+			echo "=== MEDIUM PRIORITY ARTICLES ==="; \
+			section_start="## PRIORITY_MEDIUM"; \
+			section_end="## PRIORITY_LOW"; \
+			;; \
+		low) \
+			echo "=== LOW PRIORITY ARTICLES ==="; \
+			section_start="## PRIORITY_LOW"; \
+			section_end="## REFACTOR_STATUS"; \
+			;; \
+		all) \
+			echo "=== ALL PRIORITY ARTICLES ==="; \
+			;; \
+		*) \
+			echo "Error: Invalid priority '$$priority'. Use: high, medium, low, or all"; \
+			exit 1; \
+			;; \
+	esac; \
+	echo ""; \
+	total=0; \
+	for domain in Science_and_Mathematics Technology_and_Computing Human_Society_and_Culture Arts_and_Expression Philosophy_and_Cognition Natural_World Health_and_Medicine Language_and_Communication History_and_Time Daily_Life_and_Skills Systems_and_Structures Future_and_Speculation; do \
+		if [ -f "$$domain/TODO.md" ]; then \
+			if [ "$$priority" = "all" ]; then \
+				high_incomplete=$$(sed -n '/^## PRIORITY_HIGH/,/^## PRIORITY_MEDIUM/p' "$$domain/TODO.md" | grep "^- \[ \]" | wc -l | tr -d ' '); \
+				high_complete=$$(sed -n '/^## PRIORITY_HIGH/,/^## PRIORITY_MEDIUM/p' "$$domain/TODO.md" | grep "^- \[x\]" | wc -l | tr -d ' '); \
+				medium_incomplete=$$(sed -n '/^## PRIORITY_MEDIUM/,/^## PRIORITY_LOW/p' "$$domain/TODO.md" | grep "^- \[ \]" | wc -l | tr -d ' '); \
+				medium_complete=$$(sed -n '/^## PRIORITY_MEDIUM/,/^## PRIORITY_LOW/p' "$$domain/TODO.md" | grep "^- \[x\]" | wc -l | tr -d ' '); \
+				low_incomplete=$$(sed -n '/^## PRIORITY_LOW/,/^## REFACTOR_STATUS/p' "$$domain/TODO.md" | grep "^- \[ \]" | wc -l | tr -d ' '); \
+				low_complete=$$(sed -n '/^## PRIORITY_LOW/,/^## REFACTOR_STATUS/p' "$$domain/TODO.md" | grep "^- \[x\]" | wc -l | tr -d ' '); \
+				high_total=$$((high_incomplete + high_complete)); \
+				medium_total=$$((medium_incomplete + medium_complete)); \
+				low_total=$$((low_incomplete + low_complete)); \
+				domain_total=$$((high_total + medium_total + low_total)); \
+				if [ $$domain_total -gt 0 ]; then \
+					echo "📁 $$domain (H:$$high_complete/$$high_total M:$$medium_complete/$$medium_total L:$$low_complete/$$low_total = $$domain_total total):"; \
+					echo "  HIGH PRIORITY:"; \
+					if [ "$$show_completed" = "true" ]; then \
+						sed -n '/^## PRIORITY_HIGH/,/^## PRIORITY_MEDIUM/p' "$$domain/TODO.md" | grep "^- \[.\]" | head -$$limit | sed 's/^- \[ \] /    ⏳ /' | sed 's/^- \[x\] /    ✅ /' | sed 's/ | [^|]* | / - /' | sed 's/\*\*\([^*]*\)\.md\*\*/\1.md/'; \
+					else \
+						sed -n '/^## PRIORITY_HIGH/,/^## PRIORITY_MEDIUM/p' "$$domain/TODO.md" | grep "^- \[ \]" | head -$$limit | sed 's/^- \[ \] /    ⏳ /' | sed 's/ | [^|]* | / - /' | sed 's/\*\*\([^*]*\)\.md\*\*/\1.md/'; \
+					fi; \
+					echo "  MEDIUM PRIORITY:"; \
+					if [ "$$show_completed" = "true" ]; then \
+						sed -n '/^## PRIORITY_MEDIUM/,/^## PRIORITY_LOW/p' "$$domain/TODO.md" | grep "^- \[.\]" | head -$$limit | sed 's/^- \[ \] /    ⏳ /' | sed 's/^- \[x\] /    ✅ /' | sed 's/ | [^|]* | / - /' | sed 's/\*\*\([^*]*\)\.md\*\*/\1.md/'; \
+					else \
+						sed -n '/^## PRIORITY_MEDIUM/,/^## PRIORITY_LOW/p' "$$domain/TODO.md" | grep "^- \[ \]" | head -$$limit | sed 's/^- \[ \] /    ⏳ /' | sed 's/ | [^|]* | / - /' | sed 's/\*\*\([^*]*\)\.md\*\*/\1.md/'; \
+					fi; \
+					echo "  LOW PRIORITY:"; \
+					if [ "$$show_completed" = "true" ]; then \
+						sed -n '/^## PRIORITY_LOW/,/^## REFACTOR_STATUS/p' "$$domain/TODO.md" | grep "^- \[.\]" | head -$$limit | sed 's/^- \[ \] /    ⏳ /' | sed 's/^- \[x\] /    ✅ /' | sed 's/ | [^|]* | / - /' | sed 's/\*\*\([^*]*\)\.md\*\*/\1.md/'; \
+					else \
+						sed -n '/^## PRIORITY_LOW/,/^## REFACTOR_STATUS/p' "$$domain/TODO.md" | grep "^- \[ \]" | head -$$limit | sed 's/^- \[ \] /    ⏳ /' | sed 's/ | [^|]* | / - /' | sed 's/\*\*\([^*]*\)\.md\*\*/\1.md/'; \
+					fi; \
+					echo ""; \
+					total=$$((total + domain_total)); \
+				fi; \
+			else \
+				if grep -q "$$section_start" "$$domain/TODO.md" 2>/dev/null; then \
+					incomplete_articles=$$(sed -n "/$$section_start/,/$$section_end/p" "$$domain/TODO.md" | grep "^- \[ \]" | wc -l | tr -d ' '); \
+					completed_articles=$$(sed -n "/$$section_start/,/$$section_end/p" "$$domain/TODO.md" | grep "^- \[x\]" | wc -l | tr -d ' '); \
+					total_articles=$$((incomplete_articles + completed_articles)); \
+					if [ $$total_articles -gt 0 ]; then \
+						echo "📁 $$domain ($$total_articles $$priority priority: $$completed_articles done, $$incomplete_articles remaining):"; \
+						if [ "$$show_completed" = "true" ]; then \
+							sed -n "/$$section_start/,/$$section_end/p" "$$domain/TODO.md" | grep "^- \[.\]" | head -$$limit | sed 's/^- \[ \] /  ⏳ /' | sed 's/^- \[x\] /  ✅ /' | sed 's/ | [^|]* | / - /' | sed 's/\*\*\([^*]*\)\.md\*\*/\1.md/'; \
+						else \
+							sed -n "/$$section_start/,/$$section_end/p" "$$domain/TODO.md" | grep "^- \[ \]" | head -$$limit | sed 's/^- \[ \] /  ⏳ /' | sed 's/ | [^|]* | / - /' | sed 's/\*\*\([^*]*\)\.md\*\*/\1.md/'; \
+						fi; \
+						echo ""; \
+						total=$$((total + total_articles)); \
+					fi; \
+				fi; \
+			fi; \
+		fi; \
+	done; \
+	echo "🎯 Total $$priority priority articles: $$total"; \
+	if [ "$$limit" != "999999" ]; then \
+		echo "💡 Showing first $$limit articles per domain. Use 'make article-todo priority=$$priority' to see all."; \
+	fi; \
+	if [ "$$show_completed" != "true" ]; then \
+		echo "💡 Showing incomplete articles only. Use 'show_completed=true' to see completed articles."; \
+	fi
+
+# Legacy aliases for backward compatibility  
+.PHONY: priority-high
+priority-high:
+	@$(MAKE) article-todo priority=high
+
+# Suggest next 24 articles to write (2 from each domain's high priority)
+.PHONY: next-articles
+next-articles:
+	@echo "=== NEXT 24 ARTICLES TO WRITE ==="
+	@echo "(2 high-priority articles from each domain for balanced coverage)"
+	@echo ""
+	@$(MAKE) article-todo priority=high limit=2
+
+# Identify TODO.md files needing format refactoring for makefile compatibility
+.PHONY: todo-refactor
+todo-refactor:
+	@echo "=== TODO.md FILES NEEDING REFACTORING ==="
+	@echo "(Files missing standardized PRIORITY_HIGH/MEDIUM/LOW sections or REFACTOR_STATUS)"
+	@echo ""
+	@total=0; \
+	for domain in Science_and_Mathematics Technology_and_Computing Human_Society_and_Culture Arts_and_Expression Philosophy_and_Cognition Natural_World Health_and_Medicine Language_and_Communication History_and_Time Daily_Life_and_Skills Systems_and_Structures Future_and_Speculation; do \
+		if [ -f "$$domain/TODO.md" ]; then \
+			needs_refactor=0; \
+			if ! grep -q "^## PRIORITY_HIGH" "$$domain/TODO.md" 2>/dev/null; then \
+				needs_refactor=1; \
+			fi; \
+			if ! grep -q "^## PRIORITY_MEDIUM" "$$domain/TODO.md" 2>/dev/null; then \
+				needs_refactor=1; \
+			fi; \
+			if ! grep -q "^## PRIORITY_LOW" "$$domain/TODO.md" 2>/dev/null; then \
+				needs_refactor=1; \
+			fi; \
+			if ! grep -q "^## REFACTOR_STATUS" "$$domain/TODO.md" 2>/dev/null; then \
+				needs_refactor=1; \
+			fi; \
+			if ! grep -q "TODO_REFACTOR_NEEDED" "$$domain/TODO.md" 2>/dev/null; then \
+				needs_refactor=1; \
+			fi; \
+			if [ $$needs_refactor -eq 1 ]; then \
+				echo "📁 $$domain/TODO.md"; \
+				echo "  Missing: "; \
+				if ! grep -q "^## PRIORITY_HIGH" "$$domain/TODO.md" 2>/dev/null; then \
+					echo "    - PRIORITY_HIGH section"; \
+				fi; \
+				if ! grep -q "^## PRIORITY_MEDIUM" "$$domain/TODO.md" 2>/dev/null; then \
+					echo "    - PRIORITY_MEDIUM section"; \
+				fi; \
+				if ! grep -q "^## PRIORITY_LOW" "$$domain/TODO.md" 2>/dev/null; then \
+					echo "    - PRIORITY_LOW section"; \
+				fi; \
+				if ! grep -q "^## REFACTOR_STATUS" "$$domain/TODO.md" 2>/dev/null; then \
+					echo "    - REFACTOR_STATUS section"; \
+				fi; \
+				echo ""; \
+				total=$$((total + 1)); \
+			fi; \
+		fi; \
+	done; \
+	echo "🎯 Total TODO.md files needing refactoring: $$total"; \
+	if [ $$total -eq 0 ]; then \
+		echo "✅ All TODO.md files follow standardized format!"; \
+	else \
+		echo ""; \
+		echo "Required format:"; \
+		echo "## PRIORITY_HIGH"; \
+		echo "### Section_Name"; \
+		echo "- [ ] **Article.md** | folder/path | Description"; \
+		echo ""; \
+		echo "## PRIORITY_MEDIUM"; \
+		echo "## PRIORITY_LOW"; \
+		echo "## REFACTOR_STATUS"; \
+		echo "- [ ] TODO_REFACTOR_NEEDED"; \
+	fi
+
 # Declare phony targets
-.PHONY: all format build serve clean help watch format-files clean-dist setup-dist copy-assets create-css create-template outline-todo todo status
+.PHONY: all format build serve clean help watch format-files clean-dist setup-dist copy-assets create-css create-template outline-todo todo status article-todo priority-high next-articles todo-refactor

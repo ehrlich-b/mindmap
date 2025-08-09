@@ -1,194 +1,171 @@
 # Philosophy and Cognition - Article Roadmap
 
-## Western Philosophy Articles
+## PRIORITY_HIGH
 
-### Ancient Philosophy (Priority: High)
-- [ ] **Socrates.md** - Know thyself, the unexamined life, and the Socratic method
-- [ ] **Plato.md** - Theory of forms, the cave allegory, and ideal state
-- [ ] **Aristotle.md** - Logic, ethics, politics, and empirical observation
-- [ ] **Stoicism.md** - Virtue, acceptance, and emotional resilience
-- [ ] **Epicureanism.md** - Pleasure, friendship, and freedom from fear
-- [ ] **Cynicism.md** - Simplicity, authenticity, and social criticism
-- [ ] **Pre_Socratics.md** - First philosophers asking "what is everything made of?"
+### Western_Philosophy
+- [ ] **Socrates.md** | Western_Philosophy/Ancient_Philosophy | Know thyself, the unexamined life, and the Socratic method
+- [ ] **Plato.md** | Western_Philosophy/Ancient_Philosophy | Theory of forms, the cave allegory, and ideal state
+- [ ] **Aristotle.md** | Western_Philosophy/Ancient_Philosophy | Logic, ethics, politics, and empirical observation
+- [ ] **Stoicism.md** | Western_Philosophy/Ancient_Philosophy | Virtue, acceptance, and emotional resilience
+- [ ] **Epicureanism.md** | Western_Philosophy/Ancient_Philosophy | Pleasure, friendship, and freedom from fear
+- [ ] **Cynicism.md** | Western_Philosophy/Ancient_Philosophy | Simplicity, authenticity, and social criticism
+- [ ] **Pre_Socratics.md** | Western_Philosophy/Ancient_Philosophy | First philosophers asking "what is everything made of?"
+- [ ] **Rene_Descartes.md** | Western_Philosophy/Modern_Philosophy | Cogito ergo sum, mind-body dualism, methodic doubt
+- [ ] **John_Locke.md** | Western_Philosophy/Modern_Philosophy | Empiricism, tabula rasa, and social contract
+- [ ] **David_Hume.md** | Western_Philosophy/Modern_Philosophy | Skepticism, problem of induction, is-ought gap
+- [ ] **Immanuel_Kant.md** | Western_Philosophy/Modern_Philosophy | Categorical imperative, synthetic a priori, transcendental idealism
+- [ ] **Spinoza.md** | Western_Philosophy/Modern_Philosophy | Everything is God, determinism, and geometric ethics
+- [ ] **Leibniz.md** | Western_Philosophy/Modern_Philosophy | Monads, best of all possible worlds, principle of sufficient reason
+- [ ] **Existentialism.md** | Western_Philosophy/Contemporary_Philosophy | Sartre, Camus, existence precedes essence
+- [ ] **Analytic_Philosophy.md** | Western_Philosophy/Contemporary_Philosophy | Russell, Wittgenstein, logical analysis
+- [ ] **Phenomenology.md** | Western_Philosophy/Contemporary_Philosophy | Husserl, Heidegger, study of consciousness
+- [ ] **Postmodernism.md** | Western_Philosophy/Contemporary_Philosophy | Derrida, Foucault, critique of grand narratives
+- [ ] **Pragmatism.md** | Western_Philosophy/Contemporary_Philosophy | James, Dewey, truth as what works
+- [ ] **Logical_Positivism.md** | Western_Philosophy/Contemporary_Philosophy | Vienna Circle, verification principle
 
-### Medieval Philosophy (Priority: Medium)
-- [ ] **Augustine.md** - Christian philosophy, time, and the problem of evil
-- [ ] **Thomas_Aquinas.md** - Faith and reason, natural law, five ways to God
-- [ ] **Duns_Scotus.md** - Individual essence and will over intellect
-- [ ] **William_of_Ockham.md** - Nominalism and Ockham's razor
-- [ ] **Maimonides.md** - Jewish philosophy and Guide for the Perplexed
-- [ ] **Averroes.md** - Islamic philosophy and Aristotelian interpretation
+### Eastern_Philosophy
+- [ ] **Four_Noble_Truths.md** | Eastern_Philosophy/Buddhist_Philosophy | Suffering, its cause, its cessation, the path
+- [ ] **Eightfold_Path.md** | Eastern_Philosophy/Buddhist_Philosophy | Right view, intention, speech, action, livelihood, effort, mindfulness, concentration
+- [ ] **Impermanence.md** | Eastern_Philosophy/Buddhist_Philosophy | Nothing lasts forever, everything changes
+- [ ] **No_Self.md** | Eastern_Philosophy/Buddhist_Philosophy | Anatman, the illusion of permanent self
+- [ ] **Karma.md** | Eastern_Philosophy/Buddhist_Philosophy | Actions and their consequences across lifetimes
+- [ ] **Meditation_Philosophy.md** | Eastern_Philosophy/Buddhist_Philosophy | Mindfulness, awareness, liberation through observation
+- [ ] **Zen.md** | Eastern_Philosophy/Buddhist_Philosophy | Direct pointing, sudden enlightenment, koan practice
 
-### Modern Philosophy (Priority: High)
-- [ ] **Rene_Descartes.md** - Cogito ergo sum, mind-body dualism, methodic doubt
-- [ ] **John_Locke.md** - Empiricism, tabula rasa, and social contract
-- [ ] **David_Hume.md** - Skepticism, problem of induction, is-ought gap
-- [ ] **Immanuel_Kant.md** - Categorical imperative, synthetic a priori, transcendental idealism
-- [ ] **Spinoza.md** - Everything is God, determinism, and geometric ethics
-- [ ] **Leibniz.md** - Monads, best of all possible worlds, principle of sufficient reason
+### Ethics
+- [ ] **Utilitarianism.md** | Ethics/Normative_Ethics | Greatest good for greatest number
+- [ ] **Deontological_Ethics.md** | Ethics/Normative_Ethics | Duty-based ethics, categorical imperative
+- [ ] **Virtue_Ethics.md** | Ethics/Normative_Ethics | Character traits and human flourishing
+- [ ] **Care_Ethics.md** | Ethics/Normative_Ethics | Relationships, responsibility, contextual moral reasoning
+- [ ] **Existentialist_Ethics.md** | Ethics/Normative_Ethics | Radical freedom and responsibility
+- [ ] **Natural_Law.md** | Ethics/Normative_Ethics | Morality derived from human nature
+- [ ] **Bioethics.md** | Ethics/Applied_Ethics | Medical ethics, end of life, genetic engineering
+- [ ] **Environmental_Ethics.md** | Ethics/Applied_Ethics | Moral status of nature, sustainability
+- [ ] **Business_Ethics.md** | Ethics/Applied_Ethics | Corporate responsibility, fair practices
+- [ ] **AI_Ethics.md** | Ethics/Applied_Ethics | Algorithmic bias, automation impact, machine consciousness
+- [ ] **Animal_Ethics.md** | Ethics/Applied_Ethics | Rights, welfare, moral status of animals
+- [ ] **War_and_Peace.md** | Ethics/Applied_Ethics | Just war theory, pacifism, conflict resolution
 
-### Contemporary Philosophy (Priority: High)
-- [ ] **Existentialism.md** - Sartre, Camus, existence precedes essence
-- [ ] **Analytic_Philosophy.md** - Russell, Wittgenstein, logical analysis
-- [ ] **Phenomenology.md** - Husserl, Heidegger, study of consciousness
-- [ ] **Postmodernism.md** - Derrida, Foucault, critique of grand narratives
-- [ ] **Pragmatism.md** - James, Dewey, truth as what works
-- [ ] **Logical_Positivism.md** - Vienna Circle, verification principle
+### Logic_and_Reasoning
+- [ ] **Propositional_Logic.md** | Logic_and_Reasoning/Formal_Logic | AND, OR, NOT, truth tables, valid arguments
+- [ ] **Predicate_Logic.md** | Logic_and_Reasoning/Formal_Logic | Quantifiers, variables, formal proofs
+- [ ] **Modal_Logic.md** | Logic_and_Reasoning/Formal_Logic | Necessity, possibility, counterfactuals
+- [ ] **Set_Theory.md** | Logic_and_Reasoning/Formal_Logic | Collections, membership, Russell's paradox
+- [ ] **Proof_Theory.md** | Logic_and_Reasoning/Formal_Logic | What constitutes valid mathematical proof
+- [ ] **Completeness_Incompleteness.md** | Logic_and_Reasoning/Formal_Logic | Gödel's theorems and limits of formal systems
+- [ ] **Critical_Thinking.md** | Logic_and_Reasoning/Informal_Logic | Evaluating arguments in everyday contexts
+- [ ] **Fallacies.md** | Logic_and_Reasoning/Informal_Logic | Common mistakes in reasoning
+- [ ] **Rhetoric.md** | Logic_and_Reasoning/Informal_Logic | Persuasion, argumentation, public discourse
+- [ ] **Cognitive_Biases.md** | Logic_and_Reasoning/Informal_Logic | Systematic errors in human reasoning
+- [ ] **Scientific_Method.md** | Logic_and_Reasoning/Informal_Logic | Logic of discovery and justification
+- [ ] **Abductive_Reasoning.md** | Logic_and_Reasoning/Informal_Logic | Inference to best explanation
 
-## Eastern Philosophy Articles
+### Consciousness
+- [ ] **The_Hard_Problem.md** | Consciousness/The_Hard_Problem | Why subjective experience seems unexplainable
+- [ ] **Qualia.md** | Consciousness/The_Hard_Problem | The felt qualities of conscious experience
+- [ ] **Explanatory_Gap.md** | Consciousness/The_Hard_Problem | Bridging physical processes and subjective experience
+- [ ] **Zombie_Argument.md** | Consciousness/The_Hard_Problem | Philosophical zombies and conceivability
+- [ ] **Mary_the_Color_Scientist.md** | Consciousness/The_Hard_Problem | Knowledge argument against physicalism
+- [ ] **Physicalism.md** | Consciousness/Theories_of_Consciousness | Consciousness as purely physical phenomenon
+- [ ] **Dualism.md** | Consciousness/Theories_of_Consciousness | Mind and matter as distinct substances
+- [ ] **Panpsychism.md** | Consciousness/Theories_of_Consciousness | Consciousness as fundamental feature of reality
+- [ ] **Functionalism.md** | Consciousness/Theories_of_Consciousness | Mental states as functional states
+- [ ] **Illusionism.md** | Consciousness/Theories_of_Consciousness | Consciousness as compelling illusion
+- [ ] **Global_Workspace_Theory.md** | Consciousness/Theories_of_Consciousness | Consciousness as information broadcasting
+- [ ] **Integrated_Information_Theory.md** | Consciousness/Theories_of_Consciousness | Consciousness as integrated information
+- [ ] **Can_Machines_Be_Conscious.md** | Consciousness/Machine_Consciousness | Possibility of artificial consciousness
+- [ ] **Turing_Test.md** | Consciousness/Machine_Consciousness | Behavioral criteria for intelligence
+- [ ] **Chinese_Room.md** | Consciousness/Machine_Consciousness | Searle's argument against AI consciousness
+- [ ] **Robot_Rights.md** | Consciousness/Machine_Consciousness | Moral status of potentially conscious machines
 
-### Buddhist Philosophy (Priority: High)
-- [ ] **Four_Noble_Truths.md** - Suffering, its cause, its cessation, the path
-- [ ] **Eightfold_Path.md** - Right view, intention, speech, action, livelihood, effort, mindfulness, concentration
-- [ ] **Impermanence.md** - Nothing lasts forever, everything changes
-- [ ] **No_Self.md** - Anatman, the illusion of permanent self
-- [ ] **Karma.md** - Actions and their consequences across lifetimes
-- [ ] **Meditation_Philosophy.md** - Mindfulness, awareness, liberation through observation
-- [ ] **Zen.md** - Direct pointing, sudden enlightenment, koan practice
+### Epistemology
+- [ ] **What_is_Knowledge.md** | Epistemology/Nature_of_Knowledge | Justified true belief and Gettier problems
+- [ ] **Sources_of_Knowledge.md** | Epistemology/Nature_of_Knowledge | Reason, experience, testimony, intuition
+- [ ] **Rationalism_vs_Empiricism.md** | Epistemology/Nature_of_Knowledge | A priori versus a posteriori knowledge
+- [ ] **Skepticism.md** | Epistemology/Nature_of_Knowledge | Can we know anything for certain?
+- [ ] **Contextualism.md** | Epistemology/Nature_of_Knowledge | Knowledge claims depend on context
+- [ ] **Reliabilism.md** | Epistemology/Nature_of_Knowledge | Knowledge from reliable belief-forming processes
 
-### Hindu Philosophy (Priority: Medium)
-- [ ] **Vedanta.md** - Ultimate reality (Brahman) and individual soul (Atman)
-- [ ] **Yoga_Philosophy.md** - Union of individual and universal consciousness
-- [ ] **Dharma.md** - Righteous duty and cosmic order
-- [ ] **Moksha.md** - Liberation from cycle of rebirth
-- [ ] **Advaita.md** - Non-dualism, all is one consciousness
-- [ ] **Bhagavad_Gita.md** - Duty, devotion, and paths to liberation
+### Cognitive_Science
+- [ ] **Mind_Body_Problem.md** | Cognitive_Science/Philosophy_of_Mind | How mental and physical relate
+- [ ] **Personal_Identity.md** | Cognitive_Science/Philosophy_of_Mind | What makes you "you" over time
+- [ ] **Free_Will.md** | Cognitive_Science/Philosophy_of_Mind | Do we have genuine choice?
+- [ ] **Mental_Causation.md** | Cognitive_Science/Philosophy_of_Mind | How can minds cause physical events?
+- [ ] **Intentionality.md** | Cognitive_Science/Philosophy_of_Mind | How thoughts are "about" things
+- [ ] **Representation.md** | Cognitive_Science/Philosophy_of_Mind | How minds represent the world
+- [ ] **Can_Machines_Think.md** | Cognitive_Science/Artificial_Intelligence_Philosophy | Turing's question and modern AI
+- [ ] **Symbol_Grounding.md** | Cognitive_Science/Artificial_Intelligence_Philosophy | How meanings connect to world
+- [ ] **Frame_Problem.md** | Cognitive_Science/Artificial_Intelligence_Philosophy | Challenge of relevant inference
+- [ ] **AI_Consciousness.md** | Cognitive_Science/Artificial_Intelligence_Philosophy | Possibility of machine awareness
+- [ ] **Superintelligence.md** | Cognitive_Science/Artificial_Intelligence_Philosophy | Philosophical implications of advanced AI
 
-### Chinese Philosophy (Priority: Medium)
-- [ ] **Confucianism.md** - Social harmony, virtue ethics, education
-- [ ] **Taoism.md** - The Way, wu wei (non-action), balance
-- [ ] **Yin_Yang.md** - Complementary opposites in dynamic balance
-- [ ] **Legalism.md** - Laws and punishments for social order
-- [ ] **Neo_Confucianism.md** - Synthesis with Buddhist and Taoist elements
+## PRIORITY_MEDIUM
 
-### Other Eastern Traditions (Priority: Low)
-- [ ] **Shinto.md** - Japanese nature spirituality and kami
-- [ ] **Jainism.md** - Non-violence, karma, liberation
-- [ ] **Sikhism.md** - One God, equality, service to others
+### Western_Philosophy
+- [ ] **Augustine.md** | Western_Philosophy/Medieval_Philosophy | Christian philosophy, time, and the problem of evil
+- [ ] **Thomas_Aquinas.md** | Western_Philosophy/Medieval_Philosophy | Faith and reason, natural law, five ways to God
+- [ ] **Duns_Scotus.md** | Western_Philosophy/Medieval_Philosophy | Individual essence and will over intellect
+- [ ] **William_of_Ockham.md** | Western_Philosophy/Medieval_Philosophy | Nominalism and Ockham's razor
+- [ ] **Maimonides.md** | Western_Philosophy/Medieval_Philosophy | Jewish philosophy and Guide for the Perplexed
+- [ ] **Averroes.md** | Western_Philosophy/Medieval_Philosophy | Islamic philosophy and Aristotelian interpretation
 
-## Ethics Articles
+### Eastern_Philosophy
+- [ ] **Vedanta.md** | Eastern_Philosophy/Hindu_Philosophy | Ultimate reality (Brahman) and individual soul (Atman)
+- [ ] **Yoga_Philosophy.md** | Eastern_Philosophy/Hindu_Philosophy | Union of individual and universal consciousness
+- [ ] **Dharma.md** | Eastern_Philosophy/Hindu_Philosophy | Righteous duty and cosmic order
+- [ ] **Moksha.md** | Eastern_Philosophy/Hindu_Philosophy | Liberation from cycle of rebirth
+- [ ] **Advaita.md** | Eastern_Philosophy/Hindu_Philosophy | Non-dualism, all is one consciousness
+- [ ] **Bhagavad_Gita.md** | Eastern_Philosophy/Hindu_Philosophy | Duty, devotion, and paths to liberation
+- [ ] **Confucianism.md** | Eastern_Philosophy/Chinese_Philosophy | Social harmony, virtue ethics, education
+- [ ] **Taoism.md** | Eastern_Philosophy/Chinese_Philosophy | The Way, wu wei (non-action), balance
+- [ ] **Yin_Yang.md** | Eastern_Philosophy/Chinese_Philosophy | Complementary opposites in dynamic balance
+- [ ] **Legalism.md** | Eastern_Philosophy/Chinese_Philosophy | Laws and punishments for social order
+- [ ] **Neo_Confucianism.md** | Eastern_Philosophy/Chinese_Philosophy | Synthesis with Buddhist and Taoist elements
 
-### Normative Ethics (Priority: High)
-- [ ] **Utilitarianism.md** - Greatest good for greatest number
-- [ ] **Deontological_Ethics.md** - Duty-based ethics, categorical imperative
-- [ ] **Virtue_Ethics.md** - Character traits and human flourishing
-- [ ] **Care_Ethics.md** - Relationships, responsibility, contextual moral reasoning
-- [ ] **Existentialist_Ethics.md** - Radical freedom and responsibility
-- [ ] **Natural_Law.md** - Morality derived from human nature
+### Ethics
+- [ ] **Moral_Realism.md** | Ethics/Meta_Ethics | Do moral facts exist objectively?
+- [ ] **Moral_Relativism.md** | Ethics/Meta_Ethics | Are moral truths relative to cultures?
+- [ ] **Emotivism.md** | Ethics/Meta_Ethics | Moral statements as expressions of emotion
+- [ ] **Error_Theory.md** | Ethics/Meta_Ethics | All moral beliefs are false
+- [ ] **Moral_Psychology.md** | Ethics/Meta_Ethics | How humans actually make moral judgments
 
-### Applied Ethics (Priority: High)
-- [ ] **Bioethics.md** - Medical ethics, end of life, genetic engineering
-- [ ] **Environmental_Ethics.md** - Moral status of nature, sustainability
-- [ ] **Business_Ethics.md** - Corporate responsibility, fair practices
-- [ ] **AI_Ethics.md** - Algorithmic bias, automation impact, machine consciousness
-- [ ] **Animal_Ethics.md** - Rights, welfare, moral status of animals
-- [ ] **War_and_Peace.md** - Just war theory, pacifism, conflict resolution
+### Consciousness
+- [ ] **Dreams.md** | Consciousness/Altered_States | Consciousness during sleep
+- [ ] **Meditation_States.md** | Consciousness/Altered_States | Trained alterations of awareness
+- [ ] **Psychedelic_Consciousness.md** | Consciousness/Altered_States | Chemically induced alterations
+- [ ] **Split_Brain_Studies.md** | Consciousness/Altered_States | What severed corpus callosum reveals
+- [ ] **Blindsight.md** | Consciousness/Altered_States | Seeing without awareness
 
-### Meta-Ethics (Priority: Medium)
-- [ ] **Moral_Realism.md** - Do moral facts exist objectively?
-- [ ] **Moral_Relativism.md** - Are moral truths relative to cultures?
-- [ ] **Emotivism.md** - Moral statements as expressions of emotion
-- [ ] **Error_Theory.md** - All moral beliefs are false
-- [ ] **Moral_Psychology.md** - How humans actually make moral judgments
+### Epistemology
+- [ ] **Problem_of_Induction.md** | Epistemology/Specific_Epistemological_Issues | Hume's challenge to scientific reasoning
+- [ ] **Problem_of_Other_Minds.md** | Epistemology/Specific_Epistemological_Issues | How do we know others are conscious?
+- [ ] **Perceptual_Knowledge.md** | Epistemology/Specific_Epistemological_Issues | What can we know through the senses?
+- [ ] **Memory.md** | Epistemology/Specific_Epistemological_Issues | Reliability and nature of remembered knowledge
+- [ ] **Testimony.md** | Epistemology/Specific_Epistemological_Issues | Knowledge from what others tell us
+- [ ] **Intuition.md** | Epistemology/Specific_Epistemological_Issues | Immediate, non-inferential knowledge
+- [ ] **Testimony_and_Trust.md** | Epistemology/Social_Epistemology | Learning from others
+- [ ] **Scientific_Communities.md** | Epistemology/Social_Epistemology | How science produces knowledge
+- [ ] **Wisdom_of_Crowds.md** | Epistemology/Social_Epistemology | Collective knowledge and expertise
+- [ ] **Fake_News.md** | Epistemology/Social_Epistemology | Misinformation in digital age
+- [ ] **Epistemic_Injustice.md** | Epistemology/Social_Epistemology | When marginalized voices are discredited
 
-## Logic and Reasoning Articles
+### Cognitive_Science
+- [ ] **Perception.md** | Cognitive_Science/Cognitive_Phenomena | How we experience and interpret sensory input
+- [ ] **Memory_and_Time.md** | Cognitive_Science/Cognitive_Phenomena | Remembering, forgetting, temporal experience
+- [ ] **Language_and_Thought.md** | Cognitive_Science/Cognitive_Phenomena | How language shapes thinking
+- [ ] **Emotions.md** | Cognitive_Science/Cognitive_Phenomena | Nature and function of emotional experience
+- [ ] **Attention.md** | Cognitive_Science/Cognitive_Phenomena | Selective focus and awareness
+- [ ] **Creativity.md** | Cognitive_Science/Cognitive_Phenomena | Novel combination and insight
 
-### Formal Logic (Priority: High)
-- [ ] **Propositional_Logic.md** - AND, OR, NOT, truth tables, valid arguments
-- [ ] **Predicate_Logic.md** - Quantifiers, variables, formal proofs
-- [ ] **Modal_Logic.md** - Necessity, possibility, counterfactuals
-- [ ] **Set_Theory.md** - Collections, membership, Russell's paradox
-- [ ] **Proof_Theory.md** - What constitutes valid mathematical proof
-- [ ] **Completeness_Incompleteness.md** - Gödel's theorems and limits of formal systems
+## PRIORITY_LOW
 
-### Informal Logic (Priority: High)
-- [ ] **Critical_Thinking.md** - Evaluating arguments in everyday contexts
-- [ ] **Fallacies.md** - Common mistakes in reasoning
-- [ ] **Rhetoric.md** - Persuasion, argumentation, public discourse
-- [ ] **Cognitive_Biases.md** - Systematic errors in human reasoning
-- [ ] **Scientific_Method.md** - Logic of discovery and justification
-- [ ] **Abductive_Reasoning.md** - Inference to best explanation
+### Eastern_Philosophy
+- [ ] **Shinto.md** | Eastern_Philosophy/Other_Eastern_Traditions | Japanese nature spirituality and kami
+- [ ] **Jainism.md** | Eastern_Philosophy/Other_Eastern_Traditions | Non-violence, karma, liberation
+- [ ] **Sikhism.md** | Eastern_Philosophy/Other_Eastern_Traditions | One God, equality, service to others
 
-## Consciousness Articles
-
-### The Hard Problem (Priority: High)
-- [ ] **The_Hard_Problem.md** - Why subjective experience seems unexplainable
-- [ ] **Qualia.md** - The felt qualities of conscious experience
-- [ ] **Explanatory_Gap.md** - Bridging physical processes and subjective experience
-- [ ] **Zombie_Argument.md** - Philosophical zombies and conceivability
-- [ ] **Mary_the_Color_Scientist.md** - Knowledge argument against physicalism
-
-### Theories of Consciousness (Priority: High)
-- [ ] **Physicalism.md** - Consciousness as purely physical phenomenon
-- [ ] **Dualism.md** - Mind and matter as distinct substances
-- [ ] **Panpsychism.md** - Consciousness as fundamental feature of reality
-- [ ] **Functionalism.md** - Mental states as functional states
-- [ ] **Illusionism.md** - Consciousness as compelling illusion
-- [ ] **Global_Workspace_Theory.md** - Consciousness as information broadcasting
-- [ ] **Integrated_Information_Theory.md** - Consciousness as integrated information
-
-### Altered States (Priority: Medium)
-- [ ] **Dreams.md** - Consciousness during sleep
-- [ ] **Meditation_States.md** - Trained alterations of awareness
-- [ ] **Psychedelic_Consciousness.md** - Chemically induced alterations
-- [ ] **Split_Brain_Studies.md** - What severed corpus callosum reveals
-- [ ] **Blindsight.md** - Seeing without awareness
-
-### Machine Consciousness (Priority: High)
-- [ ] **Can_Machines_Be_Conscious.md** - Possibility of artificial consciousness
-- [ ] **Turing_Test.md** - Behavioral criteria for intelligence
-- [ ] **Chinese_Room.md** - Searle's argument against AI consciousness
-- [ ] **Robot_Rights.md** - Moral status of potentially conscious machines
-
-## Epistemology Articles
-
-### Nature of Knowledge (Priority: High)
-- [ ] **What_is_Knowledge.md** - Justified true belief and Gettier problems
-- [ ] **Sources_of_Knowledge.md** - Reason, experience, testimony, intuition
-- [ ] **Rationalism_vs_Empiricism.md** - A priori versus a posteriori knowledge
-- [ ] **Skepticism.md** - Can we know anything for certain?
-- [ ] **Contextualism.md** - Knowledge claims depend on context
-- [ ] **Reliabilism.md** - Knowledge from reliable belief-forming processes
-
-### Specific Epistemological Issues (Priority: Medium)
-- [ ] **Problem_of_Induction.md** - Hume's challenge to scientific reasoning
-- [ ] **Problem_of_Other_Minds.md** - How do we know others are conscious?
-- [ ] **Perceptual_Knowledge.md** - What can we know through the senses?
-- [ ] **Memory.md** - Reliability and nature of remembered knowledge
-- [ ] **Testimony.md** - Knowledge from what others tell us
-- [ ] **Intuition.md** - Immediate, non-inferential knowledge
-
-### Social Epistemology (Priority: Medium)
-- [ ] **Testimony_and_Trust.md** - Learning from others
-- [ ] **Scientific_Communities.md** - How science produces knowledge
-- [ ] **Wisdom_of_Crowds.md** - Collective knowledge and expertise
-- [ ] **Fake_News.md** - Misinformation in digital age
-- [ ] **Epistemic_Injustice.md** - When marginalized voices are discredited
-
-## Cognitive Science Articles
-
-### Philosophy of Mind (Priority: High)
-- [ ] **Mind_Body_Problem.md** - How mental and physical relate
-- [ ] **Personal_Identity.md** - What makes you "you" over time
-- [ ] **Free_Will.md** - Do we have genuine choice?
-- [ ] **Mental_Causation.md** - How can minds cause physical events?
-- [ ] **Intentionality.md** - How thoughts are "about" things
-- [ ] **Representation.md** - How minds represent the world
-
-### Cognitive Phenomena (Priority: Medium)
-- [ ] **Perception.md** - How we experience and interpret sensory input
-- [ ] **Memory_and_Time.md** - Remembering, forgetting, temporal experience
-- [ ] **Language_and_Thought.md** - How language shapes thinking
-- [ ] **Emotions.md** - Nature and function of emotional experience
-- [ ] **Attention.md** - Selective focus and awareness
-- [ ] **Creativity.md** - Novel combination and insight
-
-### Artificial Intelligence Philosophy (Priority: High)
-- [ ] **Can_Machines_Think.md** - Turing's question and modern AI
-- [ ] **Symbol_Grounding.md** - How meanings connect to world
-- [ ] **Frame_Problem.md** - Challenge of relevant inference
-- [ ] **AI_Consciousness.md** - Possibility of machine awareness
-- [ ] **Superintelligence.md** - Philosophical implications of advanced AI
+## REFACTOR_STATUS
+- [x] TODO_REFACTOR_COMPLETE
 
 ## Cross-Domain Connections
 - Link to **Science_and_Mathematics** for philosophy of science, mathematical foundations

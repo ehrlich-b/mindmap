@@ -141,34 +141,140 @@
 - [ ] Create symlinks or reference documents for interconnected topics
 - [ ] Ensure balanced coverage across all domains
 
-## Phase 4: Leaf Document Creation 🚀 READY TO BEGIN
+## Phase 3.5: TODO.md Format Refactoring ✅ COMPLETE
+
+**Problem**: Current TODO.md files use inconsistent formats that make systematic article identification difficult. Need standardized, makefile-readable format for efficient Phase 4 development.
+
+**Status**: All 12 domain TODO.md files successfully refactored to standardized format
+
+### **New Standardized Format Requirements:**
+
+```markdown
+# Domain - Article Roadmap
+
+## PRIORITY_HIGH
+### Section_Name
+- [ ] **Article_Name.md** | folder/path/here | Brief description here
+- [x] **Completed_Article.md** | some/path | This one is done
+
+## PRIORITY_MEDIUM
+### Section_Name
+- [ ] **Medium_Article.md** | path | Description
+
+## PRIORITY_LOW  
+### Section_Name
+- [ ] **Low_Priority.md** | path | Description
+
+## REFACTOR_STATUS
+- [x] TODO_REFACTOR_COMPLETE
+```
+
+### **Format Rules:**
+1. **Priority Sections**: `## PRIORITY_HIGH`, `## PRIORITY_MEDIUM`, `## PRIORITY_LOW`
+2. **Article Format**: `- [ ] **Filename.md** | folder/path | Description`  
+3. **Completion Tracking**: `- [x]` for completed articles
+4. **Path Format**: Relative to domain root (e.g., `Physics/Classical_Mechanics`)
+5. **Refactor Status**: `## REFACTOR_STATUS` with completion tracking
+
+### **Refactoring Process:**
+- [x] **Systematic Refactoring**: Use `make todo-refactor` to identify files needing updates
+- [x] **Domain by Domain**: Refactor each domain TODO.md to match new format
+- [x] **Article Extraction**: Convert current priority sections to standardized format
+- [x] **Path Mapping**: Add proper folder paths for each article
+- [x] **Completion Tracking**: Mark refactor complete in each file
+- [x] **Validation**: Ensure `make todo-refactor` shows 0 files needing work
+
+### **Benefits of New Format:**
+- **Makefile Compatible**: Easy parsing for priority-based commands
+- **Progress Tracking**: Clear completion status for each article
+- **Cross-Platform**: Consistent parsing on Ubuntu, macOS, Windows
+- **Systematic**: Enables proper `make priority-high`, `make priority-medium` commands
+- **Scalable**: Format supports 1,100+ articles across all domains
+
+**Target**: Complete refactoring enables accurate Phase 4 article identification and priority-based development workflow.
+
+## Phase 4: Leaf Document Creation 🚀 READY - Phase 3.5 Complete
 
 **Foundation Status**: Complete structural framework with 214 comprehensive READMEs and 1,100+ article specifications provides clear roadmap for efficient article development.
 
-### Priority 1 - Core Concepts (100 documents)
-- [ ] Write 10 key documents per top-level domain using detailed specifications
-- [ ] Focus on foundational concepts that anchor each knowledge area
-- [ ] Include practical examples and human relevance (500-1500 words each)
-- [ ] Follow human-centric approach established in READMEs
+### **Systematic Article Identification System**
 
-### Priority 2 - Essential Extensions (500 documents)  
-- [ ] Expand coverage to intermediate topics using TODO.md specifications
+**Unified Article Todo System for Phase 4:**
+- `make article-todo` - **NEW**: Unified system with priority filtering and completion tracking
+- `make article-todo priority=high` - Shows all 782 HIGH priority articles (default)
+- `make article-todo priority=medium` - Shows all 476 MEDIUM priority articles  
+- `make article-todo priority=low` - Shows all 102 LOW priority articles
+- `make article-todo priority=all` - Shows breakdown across all priorities with completion status
+- `make next-articles` - Suggests next 24 articles (2 per domain) for balanced coverage
+- `make todo` - Shows 207 leaf folders needing articles (structural view)
+
+**Article Priority Levels:**
+- **782 HIGH priority articles** - Core foundational concepts (start here)
+- **476 MEDIUM priority articles** - Important domain expansions  
+- **102 LOW priority articles** - Specialized and niche topics
+- **1,360 total articles planned** across all 12 domains
+
+### **Phase 4 Development Workflow**
+
+**Step 1: Identify Next Articles**
+```bash
+make article-todo                    # See all 782 high-priority articles with completion status
+make next-articles                   # Get balanced selection of 24 articles across domains  
+make article-todo priority=all       # See breakdown across all priorities
+make article-todo show_completed=false # Hide completed, show only remaining work
+```
+
+**Step 2: Select and Create**
+- Choose article from priority list using unified `make article-todo` system
+- Check domain TODO.md for detailed specifications  
+- Create article in appropriate leaf folder following specifications
+- Follow established README patterns and tone
+
+**Step 3: Mark Complete and Track Progress**
+```bash
+# Mark article complete by changing [ ] to [x] in domain TODO.md
+vim Science_and_Mathematics/TODO.md  # Change: - [ ] **Article.md** to - [x] **Article.md**
+
+# Track overall progress
+make status                          # Check overall completion statistics
+make article-todo show_completed=false # See remaining high-priority items only
+make article-todo priority=all        # See completion breakdown across all priorities
+```
+
+### Priority 1 - Core Concepts (782 HIGH priority articles)
+- [ ] **Start Here**: Use `make article-todo` to see all 782 foundational articles with completion tracking
+- [ ] **Balanced Approach**: Use `make next-articles` for 24 articles (2 per domain) balanced across domains
+- [ ] Focus on articles marked in `## PRIORITY_HIGH` sections in domain TODO.md files
+- [ ] Target 500-1500 words each with practical examples and human relevance
+- [ ] **Track Progress**: Mark articles complete by changing `[ ]` to `[x]` in TODO.md files
+
+### Priority 2 - Essential Extensions (476 MEDIUM priority articles)  
+- [ ] Use `make article-todo priority=medium` to see all 476 expansion articles
 - [ ] Add historical context and evolution of ideas
 - [ ] Include current applications and practical implications
-- [ ] Build on cross-references established in comprehensive READMEs
+- [ ] Build comprehensive coverage of each subdomain
+- [ ] **Track Progress**: Update completion status in TODO.md files as articles are finished
 
-### Priority 3 - Comprehensive Coverage (500+ additional documents)
+### Priority 3 - Comprehensive Coverage (102 LOW priority articles)
+- [ ] Use `make article-todo priority=low` to see all 102 specialized articles
 - [ ] Fill out specialized topics and edge cases
 - [ ] Add regional and cultural variations
 - [ ] Include emerging and speculative content
-- [ ] Complete the full vision of 1,100+ articles
+- [ ] Complete the full vision of 1,360 articles across all domains
 
-**Article Development Approach**:
+**Article Development Standards**:
 - Use detailed specifications from domain TODO.md files
-- Follow established patterns from comprehensive READMEs
+- Follow established patterns from comprehensive READMEs  
 - Maintain human-centric focus and practical relevance
 - Include cross-references as mapped in structural foundation
 - Target 500-1500 words per article for accessibility
+- All contributions must be LLM-generated (see CONTRIBUTING.md)
+
+**Quality Assurance Process**:
+- Follow commit format: `[LLM-MODEL] Brief description`
+- Include LLM attribution and version
+- Match established style and tone patterns
+- Verify accuracy and appropriate technical depth
 
 ## Phase 5: Quality and Interconnection
 - [ ] Add cross-references between related documents
