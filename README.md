@@ -3,21 +3,21 @@
 ```
                     ╔═══════════════════════════════════════════════════╗
                     ║                                                   ║
-                    ║         ┌─────────┐     ┌──────────┐            ║
-                    ║     ┌───┤ SCIENCE ├─────┤   TECH   ├────┐       ║
-                    ║     │   └────┬────┘     └─────┬────┘    │       ║
-                    ║     │        │                │         │       ║
-                    ║  ┌──▼───┐   │    ╔═══════╗   │    ┌────▼──┐    ║
-                    ║  │ ARTS ├───┼────║mindmap║───┼────┤ HEALTH│    ║
-                    ║  └──┬───┘   │    ╚═══╤═══╝   │    └────┬──┘    ║
-                    ║     │       │        │       │         │       ║
-                    ║     │   ┌───▼────┐   │   ┌───▼────┐    │       ║
-                    ║     └───┤SOCIETY ├───┼───┤ NATURE ├────┘       ║
-                    ║         └────┬───┘   │   └────┬───┘            ║
-                    ║              │       │        │                ║
-                    ║          ┌───▼───────▼────────▼───┐            ║
-                    ║          │   SYSTEMS & FUTURES   │            ║
-                    ║          └────────────────────────┘            ║
+                    ║         ┌─────────┐     ┌──────────┐              ║
+                    ║     ┌───┤ SCIENCE ├─────┤   TECH   ├───┐          ║
+                    ║     │   └────┬────┘     └─────┬────┘   │          ║
+                    ║     │        │                │        │          ║
+                    ║  ┌──▼───┐    │   ╔═══════╗    │   ┌────▼───┐      ║
+                    ║  │ ARTS ├────┼───║mindmap║────┼───┤ HEALTH │      ║
+                    ║  └──┬───┘    │   ╚═══╤═══╝    │   └────┬───┘      ║
+                    ║     │        │       │        │        │          ║
+                    ║     │   ┌────▼───┐   │   ┌────▼───┐    │          ║
+                    ║     └───┤SOCIETY ├───┼───┤ NATURE ├────┘          ║
+                    ║         └────┬───┘   │   └────┬───┘               ║
+                    ║              │       │        │                   ║
+                    ║          ┌───▼───────▼────────▼───┐               ║
+                    ║          │   SYSTEMS & FUTURES    │               ║
+                    ║          └────────────────────────┘               ║
                     ║                                                   ║
                     ╚═══════════════════════════════════════════════════╝
 ```
@@ -32,10 +32,10 @@ This is **215 folders** organizing **1,100+ topics** into a living map of human 
 
 Pick your adventure:
 
-**🔬 Curious?** Start with [Science_and_Mathematics](Science_and_Mathematics/) - the universe's source code  
-**🎨 Creative?** Dive into [Arts_and_Expression](Arts_and_Expression/) - where humans make meaning  
-**🤔 Deep thinker?** Try [Philosophy_and_Cognition](Philosophy_and_Cognition/) - thinking about thinking  
-**🌍 Practical?** Check [Daily_Life_and_Skills](Daily_Life_and_Skills/) - the stuff that actually matters day-to-day  
+**🔬 Curious?** Start with [Science_and_Mathematics](Science_and_Mathematics/) - the universe's source code
+**🎨 Creative?** Dive into [Arts_and_Expression](Arts_and_Expression/) - where humans make meaning
+**🤔 Deep thinker?** Try [Philosophy_and_Cognition](Philosophy_and_Cognition/) - thinking about thinking
+**🌍 Practical?** Check [Daily_Life_and_Skills](Daily_Life_and_Skills/) - the stuff that actually matters day-to-day
 
 Or just browse around. That's kind of the point.
 
@@ -47,16 +47,16 @@ This project is that rabbit hole, pre-mapped. It's what happens when an AI reads
 
 ### What Makes This Different:
 
-**🗺️ It's a map, not a list**  
+**🗺️ It's a map, not a list**
 Everything connects. Philosophy links to neuroscience. Cooking links to chemistry. History links to... well, everything.
 
-**🎯 Human-first explanations**  
+**🎯 Human-first explanations**
 No "technically correct" robot-speak. Every topic explains why you, a human, might actually care about it.
 
-**🌳 The structure teaches**  
+**🌳 The structure teaches**
 The folders themselves tell a story. Why is Language separate from Communication? Why does Systems_and_Structures exist at all? The organization is part of the lesson.
 
-**🤖 Single perspective**  
+**🤖 Single perspective**
 One AI's coherent worldview rather than Wikipedia's thousand-voice chorus. Like having one really knowledgeable friend explain everything.
 
 ## The 12 Domains of Everything
@@ -64,7 +64,7 @@ One AI's coherent worldview rather than Wikipedia's thousand-voice chorus. Like 
 ### 🧬 [Science_and_Mathematics](Science_and_Mathematics/)
 How the universe actually works. Physics, chemistry, biology, and the language of patterns.
 
-### 💻 [Technology_and_Computing](Technology_and_Computing/)  
+### 💻 [Technology_and_Computing](Technology_and_Computing/)
 The tools we build and the digital worlds we create. From stone tools to AI.
 
 ### 🏛️ [Human_Society_and_Culture](Human_Society_and_Culture/)
@@ -129,8 +129,8 @@ This isn't just a knowledge repository. It's also:
 
 ## Built With
 
-**🤖 Claude Opus 4.1** - Designed the architecture, created the blueprint  
-**🤖 Claude Sonnet 4** - Filling in the details, writing the guides  
+**🤖 Claude Opus 4.1** - Designed the architecture, created the blueprint
+**🤖 Claude Sonnet 4** - Filling in the details, writing the guides
 **⚡ Claude Code** - Anthropic's tool that lets AIs build things properly
 
 ## Start Exploring
@@ -141,6 +141,6 @@ Every README explains not just *what's* there, but *why* it's organized that way
 
 ---
 
-*A map of everything, drawn by an AI, for humans.*  
+*A map of everything, drawn by an AI, for humans.*
 *Not because I know everything, but because organizing it helps us both understand.*
 
