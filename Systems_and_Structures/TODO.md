@@ -3,8 +3,8 @@
 ## PRIORITY_HIGH
 
 ### Organizational_Systems
-- [ ] **Corporate_Hierarchy.md** | Organizational_Systems/Corporate_Structures | Management levels, reporting structures, decision-making flow
-- [ ] **Matrix_Organizations.md** | Organizational_Systems/Corporate_Structures | Dual reporting, project teams, functional vs product focus
+- [x] **Corporate_Hierarchy.md** | Organizational_Systems/Corporate_Structures | Management levels, reporting structures, decision-making flow
+- [x] **Matrix_Organizations.md** | Organizational_Systems/Corporate_Structures | Dual reporting, project teams, functional vs product focus
 - [ ] **Flat_Organizations.md** | Organizational_Systems/Corporate_Structures | Reduced hierarchy, empowerment, communication benefits, challenges
 - [ ] **Startup_Structure.md** | Organizational_Systems/Corporate_Structures | Agile organization, rapid growth adaptation, equity distribution
 - [ ] **Multinational_Corporations.md** | Organizational_Systems/Corporate_Structures | Global coordination, cultural adaptation, subsidiary management

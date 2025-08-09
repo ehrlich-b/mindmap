@@ -3,8 +3,8 @@
 ## PRIORITY_HIGH
 
 ### Near_Term_Futures
-- [ ] **AI_Development_Trajectory.md** | Near_Term_Futures/Technology_Evolution | GPT to AGI timeline, capabilities growth, integration
-- [ ] **Automation_Acceleration.md** | Near_Term_Futures/Technology_Evolution | Job displacement, retraining needs, economic impacts
+- [x] **AI_Development_Trajectory.md** | Near_Term_Futures/Technology_Evolution | GPT to AGI timeline, capabilities growth, integration
+- [x] **Automation_Acceleration.md** | Near_Term_Futures/Technology_Evolution | Job displacement, retraining needs, economic impacts
 - [ ] **Biotechnology_Advances.md** | Near_Term_Futures/Technology_Evolution | Gene therapy, personalized medicine, enhancement
 - [ ] **Renewable_Energy_Transition.md** | Near_Term_Futures/Technology_Evolution | Solar/wind cost curves, grid transformation, storage
 - [ ] **Electric_Vehicle_Adoption.md** | Near_Term_Futures/Technology_Evolution | Battery improvements, infrastructure, market penetration

@@ -4,8 +4,8 @@
 
 ### Human_Body
 - [x] **Cardiovascular_System.md** | Human_Body/Anatomy_and_Physiology | Heart, blood vessels, circulation, blood pressure, heart disease
-- [ ] **Respiratory_System.md** | Human_Body/Anatomy_and_Physiology | Lungs, breathing, oxygen exchange, asthma, lung disease
-- [ ] **Nervous_System.md** | Human_Body/Anatomy_and_Physiology | Brain, spinal cord, neurons, neurotransmitters, neurological disorders
+- [x] **Respiratory_System.md** | Human_Body/Anatomy_and_Physiology | Lungs, breathing, oxygen exchange, asthma, lung disease
+- [x] **Nervous_System.md** | Human_Body/Anatomy_and_Physiology | Brain, spinal cord, neurons, neurotransmitters, neurological disorders
 - [ ] **Digestive_System.md** | Human_Body/Anatomy_and_Physiology | Stomach, intestines, nutrition absorption, digestive disorders
 - [ ] **Musculoskeletal_System.md** | Human_Body/Anatomy_and_Physiology | Bones, muscles, joints, movement, osteoporosis, arthritis
 - [ ] **Immune_System.md** | Human_Body/Anatomy_and_Physiology | White blood cells, antibodies, infection fighting, autoimmune diseases
