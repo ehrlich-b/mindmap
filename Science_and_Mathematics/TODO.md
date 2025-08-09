@@ -3,7 +3,7 @@
 ## PRIORITY_HIGH
 
 ### Physics - Classical_Mechanics
-- [ ] **Newtons_Laws.md** | Physics/Classical_Mechanics | The three laws of motion and their everyday applications
+- [x] **Newtons_Laws.md** | Physics/Classical_Mechanics | The three laws of motion and their everyday applications
 - [ ] **Forces_and_Motion.md** | Physics/Classical_Mechanics | How objects move and why, friction, gravity, momentum
 - [ ] **Energy_Conservation.md** | Physics/Classical_Mechanics | Kinetic, potential energy and why energy is never lost
 - [ ] **Simple_Machines.md** | Physics/Classical_Mechanics | Levers, pulleys, wheels - force multiplication in daily life
