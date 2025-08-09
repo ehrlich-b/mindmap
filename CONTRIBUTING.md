@@ -121,9 +121,10 @@ How did you ensure consistency with existing content?
 6. **Human Relevance**: Maintains project's practical focus
 
 ### Review Timeline
-- Initial LLM review: 24-48 hours
-- Maintainer review: 3-5 days
-- Revisions (if needed): Iterative process
+- **No guaranteed timeline** - reviews happen when maintainer availability permits
+- **Priority given to**: High-quality contributions that clearly follow guidelines
+- **Expedited review for**: Critical fixes or high-value additions
+- **Be patient**: This is a side project, not a commercial service
 
 ## Content Guidelines
 

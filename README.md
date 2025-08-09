@@ -1,25 +1,25 @@
 # mindmap
 
 ```
-                    ╔═══════════════════════════════════════════════════╗
-                    ║                                                   ║
-                    ║         ┌─────────┐     ┌──────────┐              ║
-                    ║     ┌───┤ SCIENCE ├─────┤   TECH   ├───┐          ║
-                    ║     │   └────┬────┘     └─────┬────┘   │          ║
-                    ║     │        │                │        │          ║
-                    ║  ┌──▼───┐    │   ╔═══════╗    │   ┌────▼───┐      ║
-                    ║  │ ARTS ├────┼───║mindmap║────┼───┤ HEALTH │      ║
-                    ║  └──┬───┘    │   ╚═══╤═══╝    │   └────┬───┘      ║
-                    ║     │        │       │        │        │          ║
-                    ║     │   ┌────▼───┐   │   ┌────▼───┐    │          ║
-                    ║     └───┤SOCIETY ├───┼───┤ NATURE ├────┘          ║
-                    ║         └────┬───┘   │   └────┬───┘               ║
-                    ║              │       │        │                   ║
-                    ║          ┌───▼───────▼────────▼───┐               ║
-                    ║          │   SYSTEMS & FUTURES    │               ║
-                    ║          └────────────────────────┘               ║
-                    ║                                                   ║
-                    ╚═══════════════════════════════════════════════════╝
+                    ╔═══════════════════════════════════════════════╗
+                    ║                                               ║
+                    ║         ┌─────────┐     ┌──────────┐          ║
+                    ║     ┌───┤ SCIENCE ├─────┤   TECH   ├───┐      ║
+                    ║     │   └────┬────┘     └─────┬────┘   │      ║
+                    ║     │        │                │        │      ║
+                    ║  ┌──▼───┐    │   ╔═══════╗    │   ┌────▼───┐  ║
+                    ║  │ ARTS ├────┼───║mindmap║────┼───┤ HEALTH │  ║
+                    ║  └──┬───┘    │   ╚═══╤═══╝    │   └────┬───┘  ║
+                    ║     │        │       │        │        │      ║
+                    ║     │   ┌────▼───┐   │   ┌────▼───┐    │      ║
+                    ║     └───┤SOCIETY ├───┼───┤ NATURE ├────┘      ║
+                    ║         └────┬───┘   │   └────┬───┘           ║
+                    ║              │       │        │               ║
+                    ║          ┌───▼───────▼────────▼───┐           ║
+                    ║          │   SYSTEMS & FUTURES    │           ║
+                    ║          └────────────────────────┘           ║
+                    ║                                               ║
+                    ╚═══════════════════════════════════════════════╝
 ```
 
 An AI's attempt to organize human knowledge into a navigable structure. 215 folders containing 1,100+ planned articles across 12 major domains.
@@ -29,7 +29,7 @@ An AI's attempt to organize human knowledge into a navigable structure. 215 fold
 The map above shows how the 12 main domains connect:
 
 - [Science_and_Mathematics](Science_and_Mathematics/) - Physics, chemistry, biology, math
-- [Technology_and_Computing](Technology_and_Computing/) - Software, hardware, digital systems  
+- [Technology_and_Computing](Technology_and_Computing/) - Software, hardware, digital systems
 - [Arts_and_Expression](Arts_and_Expression/) - Visual arts, music, literature, creativity
 - [Health_and_Medicine](Health_and_Medicine/) - Human body, disease, treatment, wellness
 - [Human_Society_and_Culture](Human_Society_and_Culture/) - Politics, economics, social structures
@@ -61,14 +61,14 @@ Start by browsing the main domains above, then drill down into areas that intere
 ## Development Tools
 
 ```bash
-make status        # Project completion statistics  
+make status        # Project completion statistics
 make outline-todo  # Find READMEs that need completion
 make help         # All available commands
 ```
 
 ## Built With
 
-**Claude Opus 4.1** - Designed the architecture, created the blueprint  
-**Claude Sonnet 4** - Filling in the details, writing the guides  
+**Claude Opus 4.1** - Designed the architecture, created the blueprint
+**Claude Sonnet 4** - Filling in the details, writing the guides
 **Claude Code** - Anthropic's agentic CLI tool
 
