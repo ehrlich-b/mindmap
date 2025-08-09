@@ -1,156 +1,139 @@
 # Language and Communication - Article Roadmap
 
-## Linguistics Articles
+## PRIORITY_HIGH
 
-### Fundamental_Concepts (Priority: High)
-- [ ] **What_is_Language.md** - Defining human language, animal communication differences, universals
-- [ ] **Language_Acquisition.md** - How children learn language, critical periods, stages of development
-- [ ] **Language_Evolution.md** - How language originated, theories, fossil evidence, development
-- [ ] **Linguistic_Relativity.md** - Sapir-Whorf hypothesis, does language shape thought?, evidence
-- [ ] **Universal_Grammar.md** - Chomsky's theory, innate language faculty, principles and parameters
-- [ ] **Language_Change.md** - How languages evolve over time, sound changes, semantic shifts
+### Linguistics
+- [ ] **What_is_Language.md** | Linguistics/Fundamental_Concepts | Defining human language, animal communication differences, universals
+- [ ] **Language_Acquisition.md** | Linguistics/Fundamental_Concepts | How children learn language, critical periods, stages of development
+- [ ] **Language_Evolution.md** | Linguistics/Fundamental_Concepts | How language originated, theories, fossil evidence, development
+- [ ] **Linguistic_Relativity.md** | Linguistics/Fundamental_Concepts | Sapir-Whorf hypothesis, does language shape thought?, evidence
+- [ ] **Universal_Grammar.md** | Linguistics/Fundamental_Concepts | Chomsky's theory, innate language faculty, principles and parameters
+- [ ] **Language_Change.md** | Linguistics/Fundamental_Concepts | How languages evolve over time, sound changes, semantic shifts
+- [ ] **Sentence_Structure.md** | Linguistics/Grammar_and_Syntax | Subject-verb-object, word order variations, syntactic trees
+- [ ] **Parts_of_Speech.md** | Linguistics/Grammar_and_Syntax | Nouns, verbs, adjectives, grammatical categories across languages
+- [ ] **Morphology.md** | Linguistics/Grammar_and_Syntax | Word formation, prefixes, suffixes, inflection, derivation
+- [ ] **Tense_and_Aspect.md** | Linguistics/Grammar_and_Syntax | Time in language, perfect vs progressive, cross-linguistic variation
+- [ ] **Case_Systems.md** | Linguistics/Grammar_and_Syntax | Nominative, accusative, grammatical relations marking
+- [ ] **Questions_and_Negation.md** | Linguistics/Grammar_and_Syntax | Interrogative formation, negative constructions, universals
+- [ ] **Word_Meaning.md** | Linguistics/Semantics_and_Pragmatics | Lexical semantics, polysemy, metaphor, semantic fields
+- [ ] **Sentence_Meaning.md** | Linguistics/Semantics_and_Pragmatics | Compositional semantics, truth conditions, logical form
+- [ ] **Context_and_Meaning.md** | Linguistics/Semantics_and_Pragmatics | Pragmatics, implicature, speech acts, relevance theory
+- [ ] **Metaphor_and_Figurative_Language.md** | Linguistics/Semantics_and_Pragmatics | Non-literal meaning, conceptual metaphor, idioms
+- [ ] **Discourse_Analysis.md** | Linguistics/Semantics_and_Pragmatics | Text structure, coherence, conversation analysis
 
-### Phonetics_and_Phonology (Priority: Medium)
-- [ ] **Speech_Sounds.md** - Vowels and consonants, articulation, international phonetic alphabet
-- [ ] **Phonological_Processes.md** - Sound patterns, rules, allophony, morphophonology
-- [ ] **Prosody.md** - Stress, tone, intonation, rhythm in speech, emotional communication
-- [ ] **Acoustic_Phonetics.md** - Physical properties of speech sounds, spectrographic analysis
-- [ ] **Articulatory_Phonetics.md** - How speech sounds are produced, vocal tract anatomy
+### World_Languages
+- [ ] **Indo_European.md** | World_Languages/Language_Families | English, Spanish, Hindi, Greek - largest language family
+- [ ] **Sino_Tibetan.md** | World_Languages/Language_Families | Chinese languages, Tibetan, tonal systems, writing systems  
+- [ ] **Afroasiatic.md** | World_Languages/Language_Families | Arabic, Hebrew, Amharic, Semitic and other branches
+- [ ] **Niger_Congo.md** | World_Languages/Language_Families | Swahili, Yoruba, Bantu languages, African diversity
+- [ ] **Austronesian.md** | World_Languages/Language_Families | Indonesian, Tagalog, Polynesian, island languages
+- [ ] **Language_Isolates.md** | World_Languages/Language_Families | Basque, Japanese, Korean, languages without relatives
+- [ ] **English.md** | World_Languages/Major_World_Languages | Global lingua franca, varieties, historical spread, future
+- [ ] **Mandarin_Chinese.md** | World_Languages/Major_World_Languages | Most speakers, tonal language, writing system, dialects
+- [ ] **Spanish.md** | World_Languages/Major_World_Languages | Growing global presence, Latin America, US demographics
+- [ ] **Arabic.md** | World_Languages/Major_World_Languages | Classical vs dialects, Islamic connection, script variations
+- [ ] **Hindi_Urdu.md** | World_Languages/Major_World_Languages | Shared spoken language, different scripts, politics
+- [ ] **French.md** | World_Languages/Major_World_Languages | International diplomacy, Francophonie, African presence
+- [ ] **Russian.md** | World_Languages/Major_World_Languages | Former Soviet influence, Cyrillic script, Slavic languages
 
-### Grammar_and_Syntax (Priority: High)
-- [ ] **Sentence_Structure.md** - Subject-verb-object, word order variations, syntactic trees
-- [ ] **Parts_of_Speech.md** - Nouns, verbs, adjectives, grammatical categories across languages
-- [ ] **Morphology.md** - Word formation, prefixes, suffixes, inflection, derivation
-- [ ] **Tense_and_Aspect.md** - Time in language, perfect vs progressive, cross-linguistic variation
-- [ ] **Case_Systems.md** - Nominative, accusative, grammatical relations marking
-- [ ] **Questions_and_Negation.md** - Interrogative formation, negative constructions, universals
+### Writing_Systems
+- [ ] **Typography.md** | Writing_Systems/Modern_Writing | Font design, readability, digital fonts, aesthetic considerations
+- [ ] **Digital_Text.md** | Writing_Systems/Modern_Writing | Unicode, emoji, hypertext, text messaging evolution
+- [ ] **Literacy.md** | Writing_Systems/Modern_Writing | Reading and writing skills, global literacy rates, education
+- [ ] **Handwriting.md** | Writing_Systems/Modern_Writing | Motor skills, cognitive effects, cultural variations, decline
 
-### Semantics_and_Pragmatics (Priority: High)
-- [ ] **Word_Meaning.md** - Lexical semantics, polysemy, metaphor, semantic fields
-- [ ] **Sentence_Meaning.md** - Compositional semantics, truth conditions, logical form
-- [ ] **Context_and_Meaning.md** - Pragmatics, implicature, speech acts, relevance theory
-- [ ] **Metaphor_and_Figurative_Language.md** - Non-literal meaning, conceptual metaphor, idioms
-- [ ] **Discourse_Analysis.md** - Text structure, coherence, conversation analysis
+### Communication_Theory
+- [ ] **Communication_Models.md** | Communication_Theory/Foundational_Concepts | Shannon-Weaver, sender-receiver, feedback loops, noise
+- [ ] **Information_Theory.md** | Communication_Theory/Foundational_Concepts | Bits, bandwidth, redundancy, compression, channel capacity
+- [ ] **Semiotics.md** | Communication_Theory/Foundational_Concepts | Signs, symbols, meaning-making, Peirce's triangle, cultural codes
+- [ ] **Rhetoric.md** | Communication_Theory/Foundational_Concepts | Persuasion, Aristotelian appeals, argumentation, public speaking
+- [ ] **Nonverbal_Communication.md** | Communication_Theory/Foundational_Concepts | Body language, facial expressions, cultural variations
+- [ ] **Conversation_Analysis.md** | Communication_Theory/Interpersonal_Communication | Turn-taking, repair, adjacency pairs, social interaction
+- [ ] **Listening_Skills.md** | Communication_Theory/Interpersonal_Communication | Active listening, empathy, feedback, attention processes
+- [ ] **Conflict_Communication.md** | Communication_Theory/Interpersonal_Communication | Disagreement management, negotiation, resolution strategies
+- [ ] **Intercultural_Communication.md** | Communication_Theory/Interpersonal_Communication | Cross-cultural differences, adaptation, global business
+- [ ] **Gender_and_Communication.md** | Communication_Theory/Interpersonal_Communication | Style differences, power dynamics, workplace communication
+- [ ] **Media_Theory.md** | Communication_Theory/Mass_Communication | McLuhan's medium is message, media effects, technological determinism
+- [ ] **Journalism.md** | Communication_Theory/Mass_Communication | News gathering, objectivity, ethics, digital transformation
+- [ ] **Broadcasting.md** | Communication_Theory/Mass_Communication | Radio, television, audience research, public service media
+- [ ] **Social_Media.md** | Communication_Theory/Mass_Communication | Platforms, viral communication, filter bubbles, democracy impact
+- [ ] **Advertising.md** | Communication_Theory/Mass_Communication | Persuasion techniques, consumer psychology, brand communication
+- [ ] **Public_Relations.md** | Communication_Theory/Mass_Communication | Reputation management, crisis communication, stakeholder relations
+- [ ] **Internet_Communication.md** | Communication_Theory/Digital_Communication | Email, forums, chat, asynchronous vs synchronous
+- [ ] **Mobile_Communication.md** | Communication_Theory/Digital_Communication | Text messaging, always-on connectivity, social implications
+- [ ] **Video_Conferencing.md** | Communication_Theory/Digital_Communication | Remote presence, telepresence, COVID-19 acceleration
+- [ ] **Virtual_Reality_Communication.md** | Communication_Theory/Digital_Communication | Immersive interaction, avatars, presence effects
+- [ ] **AI_Communication.md** | Communication_Theory/Digital_Communication | Chatbots, voice assistants, human-computer interaction
 
-## World Languages Articles
+### Applied_Communication
+- [ ] **Business_Writing.md** | Applied_Communication/Professional_Communication | Reports, proposals, emails, clarity and concision
+- [ ] **Technical_Writing.md** | Applied_Communication/Professional_Communication | Manuals, documentation, complex information simplification
+- [ ] **Academic_Writing.md** | Applied_Communication/Professional_Communication | Research papers, citations, argument structure, peer review
+- [ ] **Grant_Writing.md** | Applied_Communication/Professional_Communication | Funding proposals, persuasive structure, budget presentation
+- [ ] **Legal_Writing.md** | Applied_Communication/Professional_Communication | Contracts, briefs, precision language, plain English movement
 
-### Language_Families (Priority: High)
-- [ ] **Indo_European.md** - English, Spanish, Hindi, Greek - largest language family
-- [ ] **Sino_Tibetan.md** - Chinese languages, Tibetan, tonal systems, writing systems  
-- [ ] **Afroasiatic.md** - Arabic, Hebrew, Amharic, Semitic and other branches
-- [ ] **Niger_Congo.md** - Swahili, Yoruba, Bantu languages, African diversity
-- [ ] **Austronesian.md** - Indonesian, Tagalog, Polynesian, island languages
-- [ ] **Language_Isolates.md** - Basque, Japanese, Korean, languages without relatives
+## PRIORITY_MEDIUM
 
-### Major_World_Languages (Priority: High)
-- [ ] **English.md** - Global lingua franca, varieties, historical spread, future
-- [ ] **Mandarin_Chinese.md** - Most speakers, tonal language, writing system, dialects
-- [ ] **Spanish.md** - Growing global presence, Latin America, US demographics
-- [ ] **Arabic.md** - Classical vs dialects, Islamic connection, script variations
-- [ ] **Hindi_Urdu.md** - Shared spoken language, different scripts, politics
-- [ ] **French.md** - International diplomacy, Francophonie, African presence
-- [ ] **Russian.md** - Former Soviet influence, Cyrillic script, Slavic languages
+### Linguistics
+- [ ] **Speech_Sounds.md** | Linguistics/Phonetics_and_Phonology | Vowels and consonants, articulation, international phonetic alphabet
+- [ ] **Phonological_Processes.md** | Linguistics/Phonetics_and_Phonology | Sound patterns, rules, allophony, morphophonology
+- [ ] **Prosody.md** | Linguistics/Phonetics_and_Phonology | Stress, tone, intonation, rhythm in speech, emotional communication
+- [ ] **Acoustic_Phonetics.md** | Linguistics/Phonetics_and_Phonology | Physical properties of speech sounds, spectrographic analysis
+- [ ] **Articulatory_Phonetics.md** | Linguistics/Phonetics_and_Phonology | How speech sounds are produced, vocal tract anatomy
 
-### Endangered_Languages (Priority: Medium)
-- [ ] **Language_Death.md** - Why languages disappear, globalization impact, rate of loss
-- [ ] **Indigenous_Languages.md** - Native American, Australian Aboriginal, cultural connection
-- [ ] **Language_Revitalization.md** - Hebrew success, Māori, Navajo, community efforts
-- [ ] **Documentation_Projects.md** - Recording endangered languages, linguistic fieldwork
-- [ ] **Language_Rights.md** - Educational policy, official status, minority protection
+### World_Languages
+- [ ] **Language_Death.md** | World_Languages/Endangered_Languages | Why languages disappear, globalization impact, rate of loss
+- [ ] **Indigenous_Languages.md** | World_Languages/Endangered_Languages | Native American, Australian Aboriginal, cultural connection
+- [ ] **Language_Revitalization.md** | World_Languages/Endangered_Languages | Hebrew success, Māori, Navajo, community efforts
+- [ ] **Documentation_Projects.md** | World_Languages/Endangered_Languages | Recording endangered languages, linguistic fieldwork
+- [ ] **Language_Rights.md** | World_Languages/Endangered_Languages | Educational policy, official status, minority protection
 
-### Constructed_Languages (Priority: Low)
-- [ ] **Esperanto.md** - International auxiliary language, Zamenhof's vision, community
-- [ ] **Fictional_Languages.md** - Tolkien's Elvish, Klingon, Na'vi, creative linguistics
-- [ ] **Programming_Languages.md** - Code as language, syntax, semantics, evolution
+### Writing_Systems
+- [ ] **Origins_of_Writing.md** | Writing_Systems/Historical_Development | Mesopotamian cuneiform, Egyptian hieroglyphs, independent origins
+- [ ] **Alphabet_Development.md** | Writing_Systems/Historical_Development | Phoenician to Greek to Latin, sound representation
+- [ ] **Chinese_Characters.md** | Writing_Systems/Historical_Development | Logographic system, simplification, cultural significance
+- [ ] **Evolution_of_Scripts.md** | Writing_Systems/Historical_Development | From pictures to symbols to sounds, technological influence
+- [ ] **Alphabetic_Systems.md** | Writing_Systems/Writing_System_Types | One symbol per sound, Latin, Cyrillic, Arabic scripts
+- [ ] **Syllabic_Systems.md** | Writing_Systems/Writing_System_Types | One symbol per syllable, Japanese hiragana, Cherokee
+- [ ] **Logographic_Systems.md** | Writing_Systems/Writing_System_Types | Chinese characters, meaning-based writing, complexity
+- [ ] **Mixed_Systems.md** | Writing_Systems/Writing_System_Types | Japanese combination, Egyptian hieroglyphs, Korean hangul
 
-## Writing Systems Articles
+### Applied_Communication
+- [ ] **Public_Speaking.md** | Applied_Communication/Public_Communication | Presentations, audience analysis, overcoming anxiety, delivery
+- [ ] **Debate.md** | Applied_Communication/Public_Communication | Formal argumentation, evidence evaluation, logical fallacies
+- [ ] **Political_Communication.md** | Applied_Communication/Public_Communication | Campaign rhetoric, policy communication, media relations
+- [ ] **Crisis_Communication.md** | Applied_Communication/Public_Communication | Emergency information, reputation management, transparency
+- [ ] **Health_Communication.md** | Applied_Communication/Public_Communication | Medical information, patient education, public health messaging
+- [ ] **Translation_Theory.md** | Applied_Communication/Translation_and_Interpretation | Equivalence, fidelity vs freedom, cultural mediation
+- [ ] **Machine_Translation.md** | Applied_Communication/Translation_and_Interpretation | Google Translate, neural networks, quality improvement
+- [ ] **Literary_Translation.md** | Applied_Communication/Translation_and_Interpretation | Poetry, prose, style preservation, creative interpretation
+- [ ] **Conference_Interpreting.md** | Applied_Communication/Translation_and_Interpretation | Simultaneous, consecutive, diplomatic interpreting
+- [ ] **Community_Interpreting.md** | Applied_Communication/Translation_and_Interpretation | Medical, legal, social services, accessibility
 
-### Historical_Development (Priority: Medium)
-- [ ] **Origins_of_Writing.md** - Mesopotamian cuneiform, Egyptian hieroglyphs, independent origins
-- [ ] **Alphabet_Development.md** - Phoenician to Greek to Latin, sound representation
-- [ ] **Chinese_Characters.md** - Logographic system, simplification, cultural significance
-- [ ] **Evolution_of_Scripts.md** - From pictures to symbols to sounds, technological influence
+### Language_Learning
+- [ ] **Second_Language_Acquisition.md** | Language_Learning | Adult learning, critical period, motivation factors
+- [ ] **Language_Teaching_Methods.md** | Language_Learning | Grammar-translation, communicative approach, immersion
+- [ ] **Bilingualism.md** | Language_Learning | Code-switching, cognitive effects, heritage language maintenance
+- [ ] **Language_Assessment.md** | Language_Learning | Proficiency testing, TOEFL, IELTS, placement evaluation
+- [ ] **Computer_Assisted_Language_Learning.md** | Language_Learning | Apps, online courses, AI tutors
+- [ ] **Study_Abroad.md** | Language_Learning | Immersion experience, cultural learning, language gains
 
-### Writing_System_Types (Priority: Medium)
-- [ ] **Alphabetic_Systems.md** - One symbol per sound, Latin, Cyrillic, Arabic scripts
-- [ ] **Syllabic_Systems.md** - One symbol per syllable, Japanese hiragana, Cherokee
-- [ ] **Logographic_Systems.md** - Chinese characters, meaning-based writing, complexity
-- [ ] **Mixed_Systems.md** - Japanese combination, Egyptian hieroglyphs, Korean hangul
+## PRIORITY_LOW
 
-### Modern_Writing (Priority: High)
-- [ ] **Typography.md** - Font design, readability, digital fonts, aesthetic considerations
-- [ ] **Digital_Text.md** - Unicode, emoji, hypertext, text messaging evolution
-- [ ] **Literacy.md** - Reading and writing skills, global literacy rates, education
-- [ ] **Handwriting.md** - Motor skills, cognitive effects, cultural variations, decline
+### World_Languages
+- [ ] **Esperanto.md** | World_Languages/Constructed_Languages | International auxiliary language, Zamenhof's vision, community
+- [ ] **Fictional_Languages.md** | World_Languages/Constructed_Languages | Tolkien's Elvish, Klingon, Na'vi, creative linguistics
+- [ ] **Programming_Languages.md** | World_Languages/Constructed_Languages | Code as language, syntax, semantics, evolution
 
-## Communication Theory Articles
+### Applied_Communication
+- [ ] **Scientific_Communication.md** | Applied_Communication/Specialized_Communication | Research publication, peer review, public understanding
+- [ ] **Visual_Communication.md** | Applied_Communication/Specialized_Communication | Infographics, data visualization, pictorial representation
+- [ ] **Multimodal_Communication.md** | Applied_Communication/Specialized_Communication | Text, image, sound combination, digital media
+- [ ] **Accessibility_Communication.md** | Applied_Communication/Specialized_Communication | Sign language, Braille, assistive technology
+- [ ] **Emergency_Communication.md** | Applied_Communication/Specialized_Communication | Disaster response, alert systems, clear urgent messages
 
-### Foundational_Concepts (Priority: High)
-- [ ] **Communication_Models.md** - Shannon-Weaver, sender-receiver, feedback loops, noise
-- [ ] **Information_Theory.md** - Bits, bandwidth, redundancy, compression, channel capacity
-- [ ] **Semiotics.md** - Signs, symbols, meaning-making, Peirce's triangle, cultural codes
-- [ ] **Rhetoric.md** - Persuasion, Aristotelian appeals, argumentation, public speaking
-- [ ] **Nonverbal_Communication.md** - Body language, facial expressions, cultural variations
-
-### Interpersonal_Communication (Priority: High)
-- [ ] **Conversation_Analysis.md** - Turn-taking, repair, adjacency pairs, social interaction
-- [ ] **Listening_Skills.md** - Active listening, empathy, feedback, attention processes
-- [ ] **Conflict_Communication.md** - Disagreement management, negotiation, resolution strategies
-- [ ] **Intercultural_Communication.md** - Cross-cultural differences, adaptation, global business
-- [ ] **Gender_and_Communication.md** - Style differences, power dynamics, workplace communication
-
-### Mass_Communication (Priority: High)
-- [ ] **Media_Theory.md** - McLuhan's medium is message, media effects, technological determinism
-- [ ] **Journalism.md** - News gathering, objectivity, ethics, digital transformation
-- [ ] **Broadcasting.md** - Radio, television, audience research, public service media
-- [ ] **Social_Media.md** - Platforms, viral communication, filter bubbles, democracy impact
-- [ ] **Advertising.md** - Persuasion techniques, consumer psychology, brand communication
-- [ ] **Public_Relations.md** - Reputation management, crisis communication, stakeholder relations
-
-### Digital_Communication (Priority: High)
-- [ ] **Internet_Communication.md** - Email, forums, chat, asynchronous vs synchronous
-- [ ] **Mobile_Communication.md** - Text messaging, always-on connectivity, social implications
-- [ ] **Video_Conferencing.md** - Remote presence, telepresence, COVID-19 acceleration
-- [ ] **Virtual_Reality_Communication.md** - Immersive interaction, avatars, presence effects
-- [ ] **AI_Communication.md** - Chatbots, voice assistants, human-computer interaction
-
-## Applied Communication Articles
-
-### Professional_Communication (Priority: High)
-- [ ] **Business_Writing.md** - Reports, proposals, emails, clarity and concision
-- [ ] **Technical_Writing.md** - Manuals, documentation, complex information simplification
-- [ ] **Academic_Writing.md** - Research papers, citations, argument structure, peer review
-- [ ] **Grant_Writing.md** - Funding proposals, persuasive structure, budget presentation
-- [ ] **Legal_Writing.md** - Contracts, briefs, precision language, plain English movement
-
-### Public_Communication (Priority: Medium)
-- [ ] **Public_Speaking.md** - Presentations, audience analysis, overcoming anxiety, delivery
-- [ ] **Debate.md** - Formal argumentation, evidence evaluation, logical fallacies
-- [ ] **Political_Communication.md** - Campaign rhetoric, policy communication, media relations
-- [ ] **Crisis_Communication.md** - Emergency information, reputation management, transparency
-- [ ] **Health_Communication.md** - Medical information, patient education, public health messaging
-
-### Translation_and_Interpretation (Priority: Medium)
-- [ ] **Translation_Theory.md** - Equivalence, fidelity vs freedom, cultural mediation
-- [ ] **Machine_Translation.md** - Google Translate, neural networks, quality improvement
-- [ ] **Literary_Translation.md** - Poetry, prose, style preservation, creative interpretation
-- [ ] **Conference_Interpreting.md** - Simultaneous, consecutive, diplomatic interpreting
-- [ ] **Community_Interpreting.md** - Medical, legal, social services, accessibility
-
-### Specialized_Communication (Priority: Low)
-- [ ] **Scientific_Communication.md** - Research publication, peer review, public understanding
-- [ ] **Visual_Communication.md** - Infographics, data visualization, pictorial representation
-- [ ] **Multimodal_Communication.md** - Text, image, sound combination, digital media
-- [ ] **Accessibility_Communication.md** - Sign language, Braille, assistive technology
-- [ ] **Emergency_Communication.md** - Disaster response, alert systems, clear urgent messages
-
-## Language_Learning (Priority: Medium)
-- [ ] **Second_Language_Acquisition.md** - Adult learning, critical period, motivation factors
-- [ ] **Language_Teaching_Methods.md** - Grammar-translation, communicative approach, immersion
-- [ ] **Bilingualism.md** - Code-switching, cognitive effects, heritage language maintenance
-- [ ] **Language_Assessment.md** - Proficiency testing, TOEFL, IELTS, placement evaluation
-- [ ] **Computer_Assisted_Language_Learning.md** - Apps, online courses, AI tutors
-- [ ] **Study_Abroad.md** - Immersion experience, cultural learning, language gains
+## REFACTOR_STATUS
+- [x] TODO_REFACTOR_COMPLETE
 
 ## Cross-Domain Connections
 - Link to **Philosophy_and_Cognition** for philosophy of language, meaning, consciousness

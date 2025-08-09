@@ -49,11 +49,57 @@ make outline-todo
 ```
 
 #### `make todo`
-Lists leaf folders (containing no subfolders) with insufficient content (< 4 articles + README). Helps identify over-granular structure that should be consolidated.
+Lists leaf folders (containing no subfolders) with insufficient content (< 4 articles + README). Shows 207 folders needing articles for Phase 4.
 
 **Usage:**
 ```bash
 make todo
+```
+
+#### `make article-todo`
+**Unified article listing system** with priority filtering, completion tracking, and flexible display options. Essential for Phase 4 article development.
+
+**Basic Usage:**
+```bash
+# Show ALL 782 HIGH priority articles (default)
+make article-todo
+
+# Show ALL 476 MEDIUM priority articles  
+make article-todo priority=medium
+
+# Show ALL 102 LOW priority articles
+make article-todo priority=low
+
+# Show breakdown across all priorities with completion status
+make article-todo priority=all
+```
+
+**Advanced Options:**
+```bash
+# Limit to first 10 articles per domain
+make article-todo limit=10
+
+# Hide completed articles, show only remaining work
+make article-todo show_completed=false
+
+# Combine options
+make article-todo priority=medium limit=5 show_completed=false
+```
+
+**Completion Tracking:**
+- ⏳ **Pending articles** - `- [ ]` in TODO.md files
+- ✅ **Completed articles** - `- [x]` in TODO.md files  
+- Shows **"X done, Y remaining"** for each domain
+
+#### `make priority-high` (Legacy)
+Alias for `make article-todo priority=high`. Maintained for backward compatibility.
+
+#### `make next-articles`
+Suggests next 24 articles (2 from each domain) for balanced coverage across all knowledge areas.
+
+**Usage:**
+```bash
+make next-articles
 ```
 
 ### Build Commands
@@ -149,19 +195,33 @@ The generated HTML includes:
 # Check overall completion statistics
 make status
 
-# See which READMEs need completion (175 incomplete)
-make outline-todo
+# Phase 4: Identify articles to write
+make article-todo                    # See all 782 high-priority articles
+make article-todo priority=all       # Get breakdown across all priorities  
+make next-articles                   # Get next 24 balanced across domains
 
-# Find folders that may need consolidation
+# Find folders that need more articles
 make todo
 ```
 
-### 2. Content Creation
+### 2. Article Creation (Phase 4)
 ```bash
-# Prioritize based on outline-todo output
-# Focus on Science_and_Mathematics (43 incomplete READMEs)
-vim Science_and_Mathematics/Physics/README.md
-vim Science_and_Mathematics/Mathematics/Calculus/README.md
+# Select articles from priority lists
+make article-todo                # See all 782 high-priority articles
+make next-articles              # Get balanced selection of 24 articles
+make article-todo priority=all   # See completion status across all priorities
+
+# Focus on specific priority levels
+make article-todo priority=medium               # See 476 medium priority articles
+make article-todo show_completed=false          # Hide completed, show remaining work
+
+# Create articles based on specifications
+vim Science_and_Mathematics/Physics/Classical_Mechanics/Newtons_Laws.md
+vim Technology_and_Computing/Programming/Languages/Python.md
+
+# Mark articles complete in TODO.md (change [ ] to [x])
+# Check domain TODO.md for detailed specifications
+cat Science_and_Mathematics/TODO.md  # See article requirements and completion status
 ```
 
 ### 3. Format and Build
@@ -185,8 +245,14 @@ make serve
 # Check completion progress regularly
 make status
 
-# Identify remaining work
-make outline-todo
+# Identify remaining high-priority articles  
+make article-todo show_completed=false
+
+# Get next articles to write
+make next-articles
+
+# See completion progress by priority
+make article-todo priority=all
 ```
 
 ### 6. Deploy

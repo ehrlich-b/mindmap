@@ -60,22 +60,28 @@ This repository represents a comprehensive, hierarchical map of human knowledge 
 
 ## Current Status
 - Phase 1: Foundation structure planning ✅ COMPLETE
-- Phase 2: Complete folder hierarchy (215 folders) ✅ COMPLETE
-- Phase 3: Intermediate README completion 🔄 IN PROGRESS
+- Phase 2: Complete folder hierarchy (214 folders) ✅ COMPLETE
+- Phase 3: Intermediate README completion ✅ COMPLETE
   - Top-level READMEs: 12/12 ✅
-  - Comprehensive intermediate READMEs: ~15/200+
-  - Placeholder READMEs: ~185 remaining
-- Phase 4: TODO.md distribution with 1100+ article specifications ✅ COMPLETE
-- Phase 5: [Future] Efficient creation of leaf articles using detailed roadmaps
-- Phase 6: [Future] Cross-referencing and refinement
+  - Comprehensive intermediate READMEs: 214/214 ✅ **100.0% COMPLETE**
+  - All structural documentation finished
+- Phase 3.5: TODO.md format refactoring ✅ COMPLETE  
+- Phase 4: Article Creation 🚀 **READY TO BEGIN**
+  - **1,360 articles planned** with detailed specifications
+  - **782 HIGH priority** foundational articles (start here)
+  - **476 MEDIUM priority** expansion articles  
+  - **102 LOW priority** specialized articles
+- Phase 5: [Future] Quality and cross-referencing
+- Phase 6: [Future] Maintenance and evolution
 
 ## Implementation Ready
 The framework now provides:
-- **Complete structural foundation** - All necessary folders and organization
-- **Comprehensive roadmaps** - Detailed specifications for 1100+ articles across 12 domains  
-- **Clear priorities** - High/Medium/Low priority guidance for systematic development
+- **Complete structural foundation** - All 214 folders with comprehensive documentation
+- **Comprehensive roadmaps** - Detailed specifications for 1,360 articles across 12 domains  
+- **Clear priorities** - High/Medium/Low priority guidance with completion tracking
 - **Cross-domain connections** - Mapped relationships between knowledge areas
 - **Human-centric approach** - All content specified to emphasize relevance to human experience
+- **Unified workflow** - Integrated article identification, creation, and progress tracking system
 
 ## Development Tools
 
@@ -88,6 +94,17 @@ The project includes a comprehensive Makefile with development and maintenance c
 - `make todo` - List leaf folders with insufficient articles (< 4 + README)
 - `make help` - Show all available commands
 
+**🚀 Phase 4 Article Commands (NEW UNIFIED SYSTEM):**
+- `make article-todo` - **Unified article system** with priority filtering and completion tracking
+  - `make article-todo` - Show all 782 HIGH priority articles (default)
+  - `make article-todo priority=medium` - Show all 476 MEDIUM priority articles  
+  - `make article-todo priority=low` - Show all 102 LOW priority articles
+  - `make article-todo priority=all` - Show breakdown across all priorities with completion status
+  - `make article-todo show_completed=false` - Hide completed articles, show only remaining work
+  - `make article-todo limit=10` - Limit to first 10 articles per domain
+- `make next-articles` - Suggest next 24 articles (2 per domain) for balanced coverage
+- `make priority-high` - Legacy alias for `make article-todo priority=high`
+
 **🏗️ Build Commands:**
 - `make format` - Format markdown files (normalize spacing, line endings)
 - `make build` - Convert markdown to HTML in dist/ folder (requires pandoc)
@@ -99,10 +116,13 @@ The project includes a comprehensive Makefile with development and maintenance c
 # Check project status and identify work needed
 make status
 
-# See which READMEs need completion
-make outline-todo
+# Phase 4: Identify articles to write (NEW UNIFIED SYSTEM)
+make article-todo                    # See all 782 high-priority articles with completion tracking
+make article-todo priority=all       # Get breakdown across all priorities (H:0/782 M:0/476 L:0/102)  
+make next-articles                   # Get balanced selection for next 24 articles across domains
+make article-todo show_completed=false # See only remaining work, hide completed articles
 
-# Find folders that might be over-granular
+# See which folders still need articles  
 make todo
 
 # Format all markdown files
@@ -118,12 +138,22 @@ After any compact or when starting a new session, ALWAYS re-read these core file
 3. `BUILD.md` - Development tools and workflow
 4. `CLAUDE.md` - This file with project guidelines
 
-**Standard Development Process:**
-1. Run `make status` to see overall completion
-2. Use `make outline-todo` to prioritize README completion
-3. Use `make todo` to identify structural issues
-4. Focus on completing high-priority READMEs first
-5. Use `make format` to maintain consistent formatting
+**Phase 4 Article Development Process:**
+1. Run `make status` to see overall completion (currently 0.1% - 1/1,360 articles)
+2. Use `make article-todo` to see all 782 high-priority articles with completion tracking  
+3. Use `make next-articles` to get balanced selection of 24 articles across domains
+4. Use `make article-todo priority=all` to see breakdown across all priorities
+5. Check domain TODO.md files for detailed article specifications
+6. Create articles following established README patterns and tone
+7. **Mark articles complete** by changing `[ ]` to `[x]` in domain TODO.md files  
+8. Use `make article-todo show_completed=false` to track remaining work
+9. Use `make format` to maintain consistent formatting
+
+**Previous Development Process (Phase 3 - Complete):**
+1. ✅ Used `make outline-todo` to prioritize README completion  
+2. ✅ Used `make todo` to identify structural issues
+3. ✅ Completed all 214 comprehensive READMEs (100.0%)
+4. ✅ Created detailed article specifications in domain TODO.md files
 
 ## Contribution Guidelines
 - Maintain consistent folder naming (Title_Case_With_Underscores)
