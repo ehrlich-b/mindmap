@@ -11,9 +11,9 @@
 - [x] **Abstract_Art.md** | Visual_Arts/Painting | Non-representational expression, Kandinsky to Pollock, emotional communication
 - [x] **Portrait_Painting.md** | Visual_Arts/Painting | Human representation, psychology in art, technical challenges
 - [x] **Landscape_Painting.md** | Visual_Arts/Painting | Nature representation, plein air, environmental awareness
-- [ ] **Still_Life.md** | Visual_Arts/Painting | Object arrangement, symbolism, technical study, Dutch masters
-- [ ] **History_of_Photography.md** | Visual_Arts/Photography | Camera obscura to digital, technical evolution, artistic development
-- [ ] **Portrait_Photography.md** | Visual_Arts/Photography | Human character capture, lighting, psychological depth
+- [x] **Still_Life.md** | Visual_Arts/Painting | Object arrangement, symbolism, technical study, Dutch masters
+- [x] **History_of_Photography.md** | Visual_Arts/Photography | Camera obscura to digital, technical evolution, artistic development
+- [x] **Portrait_Photography.md** | Visual_Arts/Photography | Human character capture, lighting, psychological depth
 - [ ] **Landscape_Photography.md** | Visual_Arts/Photography | Nature documentation, Ansel Adams, environmental awareness
 - [ ] **Street_Photography.md** | Visual_Arts/Photography | Urban life capture, candid moments, social documentation
 - [ ] **Documentary_Photography.md** | Visual_Arts/Photography | Photojournalism, social issues, historical record

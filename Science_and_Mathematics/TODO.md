@@ -8,13 +8,13 @@
 - [x] **Kinetic_Energy.md** | Physics/Mechanics | Energy of motion, velocity and mass relationship, conservation laws
 - [x] **Energy_Conservation.md** | Physics/Classical_Mechanics | Kinetic, potential energy and why energy is never lost
 - [x] **Simple_Machines.md** | Physics/Classical_Mechanics | Levers, pulleys, wheels - force multiplication in daily life
-- [ ] **Oscillations_and_Waves.md** | Physics/Classical_Mechanics | Pendulums, springs, sound waves, and resonance
+- [x] **Oscillations_and_Waves.md** | Physics/Classical_Mechanics | Pendulums, springs, sound waves, and resonance
 
 ### Physics - Quantum_Mechanics
 - [x] **Quantum_Mechanics.md** | Physics/Modern_Physics | Wave-particle duality, uncertainty principle, quantum states
 - [x] **Wave_Particle_Duality.md** | Physics/Quantum_Mechanics | Light and matter as both waves and particles
-- [ ] **Quantum_Entanglement.md** | Physics/Quantum_Mechanics | Spooky action at a distance and quantum computing implications
-- [ ] **Uncertainty_Principle.md** | Physics/Quantum_Mechanics | Why we can't know everything simultaneously
+- [x] **Quantum_Entanglement.md** | Physics/Quantum_Mechanics | Spooky action at a distance and quantum computing implications
+- [x] **Uncertainty_Principle.md** | Physics/Quantum_Mechanics | Why we can't know everything simultaneously
 - [ ] **Quantum_Tunneling.md** | Physics/Quantum_Mechanics | Particles passing through barriers, enabling fusion and electronics
 - [ ] **Schrodingers_Cat.md** | Physics/Quantum_Mechanics | The famous thought experiment and measurement problem
 - [ ] **Quantum_Computing_Basics.md** | Physics/Quantum_Mechanics | How quantum mechanics enables new computation

@@ -9,8 +9,8 @@
 - [x] **Marriage.md** | Social_Structures/Family | Universal social institution, cultural variations, legal frameworks
 - [x] **Marriage_Traditions.md** | Social_Structures/Family | Cultural celebrations of human union across societies
 - [x] **Parenting.md** | Social_Structures/Family | Child-rearing practices, attachment, development
-- [ ] **Family_Dynamics.md** | Social_Structures/Family | Roles, power structures, communication patterns
-- [ ] **Single_Parent_Families.md** | Social_Structures/Family | Challenges and adaptations in solo parenting
+- [x] **Family_Dynamics.md** | Social_Structures/Family | Roles, power structures, communication patterns
+- [x] **Single_Parent_Families.md** | Social_Structures/Family | Challenges and adaptations in solo parenting
 - [ ] **Blended_Families.md** | Social_Structures/Family | Step-families and complex household structures
 - [ ] **Childlessness.md** | Social_Structures/Family | Voluntary and involuntary, social implications
 
@@ -116,7 +116,7 @@
 - [ ] **Think_Tanks.md** | Social_Structures/Organizations | Policy research and idea development
 
 ### Economics - Economic_Systems
-- [ ] **Capitalism.md** | Economics/Economic_Systems | Private property, free markets, profit motive
+- [x] **Capitalism.md** | Economics/Economic_Systems | Private property, free markets, profit motive
 - [ ] **Socialism.md** | Economics/Economic_Systems | Public ownership, central planning, equality focus
 - [ ] **Mixed_Economies.md** | Economics/Economic_Systems | Combining market and government mechanisms
 - [ ] **Traditional_Economies.md** | Economics/Economic_Systems | Custom-based, subsistence, barter systems
@@ -167,4 +167,3 @@
 - Link to **History_and_Time** for social movements, institutional evolution
 - Link to **Daily_Life_and_Skills** for practical civic engagement
 - Link to **Language_and_Communication** for rhetoric, persuasion, media
-- Link to **Systems_and_Structures** for organizational theory, governance

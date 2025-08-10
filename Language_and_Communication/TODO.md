@@ -10,8 +10,8 @@
 - [x] **Universal_Grammar.md** | Linguistics/Fundamental_Concepts | Chomsky's theory, innate language faculty, principles and parameters
 - [x] **Language_Change.md** | Linguistics/Fundamental_Concepts | How languages evolve over time, sound changes, semantic shifts
 - [x] **Sentence_Structure.md** | Linguistics/Grammar_and_Syntax | Subject-verb-object, word order variations, syntactic trees
-- [ ] **Parts_of_Speech.md** | Linguistics/Grammar_and_Syntax | Nouns, verbs, adjectives, grammatical categories across languages
-- [ ] **Morphology.md** | Linguistics/Grammar_and_Syntax | Word formation, prefixes, suffixes, inflection, derivation
+- [x] **Parts_of_Speech.md** | Linguistics/Grammar_and_Syntax | Nouns, verbs, adjectives, grammatical categories across languages
+- [x] **Morphology.md** | Linguistics/Grammar_and_Syntax | Word formation, prefixes, suffixes, inflection, derivation
 - [ ] **Tense_and_Aspect.md** | Linguistics/Grammar_and_Syntax | Time in language, perfect vs progressive, cross-linguistic variation
 - [ ] **Case_Systems.md** | Linguistics/Grammar_and_Syntax | Nominative, accusative, grammatical relations marking
 - [ ] **Questions_and_Negation.md** | Linguistics/Grammar_and_Syntax | Interrogative formation, negative constructions, universals

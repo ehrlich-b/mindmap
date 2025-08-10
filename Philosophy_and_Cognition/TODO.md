@@ -10,9 +10,9 @@
 - [x] **Epicureanism.md** | Western_Philosophy/Ancient_Philosophy | Pleasure, friendship, and freedom from fear
 - [x] **Cynicism.md** | Western_Philosophy/Ancient_Philosophy | Simplicity, authenticity, and social criticism
 - [x] **Pre_Socratics.md** | Western_Philosophy/Ancient_Philosophy | First philosophers asking "what is everything made of?"
-- [ ] **Rene_Descartes.md** | Western_Philosophy/Modern_Philosophy | Cogito ergo sum, mind-body dualism, methodic doubt
-- [ ] **John_Locke.md** | Western_Philosophy/Modern_Philosophy | Empiricism, tabula rasa, and social contract
-- [ ] **David_Hume.md** | Western_Philosophy/Modern_Philosophy | Skepticism, problem of induction, is-ought gap
+- [x] **Rene_Descartes.md** | Western_Philosophy/Modern_Philosophy | Cogito ergo sum, mind-body dualism, methodic doubt
+- [x] **John_Locke.md** | Western_Philosophy/Modern_Philosophy | Empiricism, tabula rasa, and social contract
+- [x] **David_Hume.md** | Western_Philosophy/Modern_Philosophy | Skepticism, problem of induction, is-ought gap
 - [ ] **Immanuel_Kant.md** | Western_Philosophy/Modern_Philosophy | Categorical imperative, synthetic a priori, transcendental idealism
 - [ ] **Spinoza.md** | Western_Philosophy/Modern_Philosophy | Everything is God, determinism, and geometric ethics
 - [ ] **Leibniz.md** | Western_Philosophy/Modern_Philosophy | Monads, best of all possible worlds, principle of sufficient reason

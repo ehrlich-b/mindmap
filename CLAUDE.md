@@ -1,5 +1,20 @@
 # Mind Map Project - Knowledge Repository
 
+## ⚠️ CRITICAL: RE-ANCHORING REQUIREMENT ⚠️
+**EVERY TIME** you start a new session or after any `/compact` command, you MUST:
+
+1. **FIRST** re-read these core files to restore project context:
+   - `/Users/ehrlich/repos/mindmap/README.md` - Project overview and current status
+   - `/Users/ehrlich/repos/mindmap/TODO.md` - Master roadmap and phase tracking  
+   - `/Users/ehrlich/repos/mindmap/BUILD.md` - Development tools and workflow
+   - `/Users/ehrlich/repos/mindmap/CLAUDE.md` - This file with project guidelines
+
+2. **THEN** run `make status` to check current progress
+
+3. **THEN** proceed with Phase 4 article creation using the established workflow
+
+**RE-ANCHORING IS NOT OPTIONAL** - The project has complex state and without proper re-anchoring you will lose critical context about where we are and what needs to be done next.
+
 ## Project Overview
 This repository represents a comprehensive, hierarchical map of human knowledge organized for exploration and learning. The structure mimics how knowledge domains naturally interconnect while maintaining clear categorical boundaries.
 
@@ -137,12 +152,8 @@ make format
 
 ### Development Workflow
 
-**⚠️ CRITICAL: Session Re-anchoring**
-After any compact or when starting a new session, ALWAYS re-read these core files to re-anchor context:
-1. `README.md` - Project overview and current status
-2. `TODO.md` - Master roadmap and phase tracking  
-3. `BUILD.md` - Development tools and workflow
-4. `CLAUDE.md` - This file with project guidelines
+**⚠️ CRITICAL: Session Re-anchoring (See Top of File for Full Requirements)**
+The re-anchoring requirement is now detailed at the top of this file - scroll up to see the complete process that MUST be followed every time.
 
 **Phase 4 Article Development Process:**
 1. Run `make status` to see overall completion (currently 6.7% - 88/1,296 articles)

@@ -7,9 +7,9 @@
 - [x] **JavaScript.md** | Programming/Languages | Language of the web and increasingly servers
 - [x] **Java.md** | Programming/Languages | Enterprise applications and Android development
 - [x] **C_Programming.md** | Programming/Programming_Languages | Foundation language for systems and performance-critical code
-- [ ] **C_and_CPlusPlus.md** | Programming/Languages | System programming and performance-critical code
+- [x] **C_and_CPlusPlus.md** | Programming/Languages | System programming and performance-critical code
 - [x] **Rust.md** | Programming/Languages | Memory-safe systems programming
-- [ ] **Go.md** | Programming/Languages | Concurrent programming and cloud infrastructure
+- [x] **Go.md** | Programming/Languages | Concurrent programming and cloud infrastructure
 - [ ] **TypeScript.md** | Programming/Languages | JavaScript with types for large applications
 - [ ] **SQL.md** | Programming/Languages | Database query language fundamentals
 - [ ] **Functional_Languages.md** | Programming/Languages | Haskell, Lisp, and functional paradigm
@@ -86,7 +86,7 @@
 - [ ] **SSL_TLS.md** | Internet_and_Web/Protocols | Encryption for secure communication
 
 ### Internet_and_Web - Web_Development
-- [ ] **HTML.md** | Internet_and_Web/Web_Development | Structure of web pages
+- [x] **HTML.md** | Internet_and_Web/Web_Development | Structure of web pages
 - [ ] **CSS.md** | Internet_and_Web/Web_Development | Styling and layout
 - [ ] **JavaScript_DOM.md** | Internet_and_Web/Web_Development | Making pages interactive
 - [ ] **React.md** | Internet_and_Web/Web_Development | Component-based UI library
@@ -216,4 +216,3 @@
 - Link to **Human_Society_and_Culture** for tech's social impact
 - Link to **Philosophy_and_Cognition** for AI consciousness, ethics
 - Link to **Future_and_Speculation** for technological singularity
-- Link to **Daily_Life_and_Skills** for practical tech skills
