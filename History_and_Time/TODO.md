@@ -7,9 +7,9 @@
 - [x] **Stone_Age.md** | Ancient_History/Prehistoric_Era | Tool development, hunter-gatherer societies, cave art, fire control
 - [x] **Agricultural_Revolution.md** | Ancient_History/Prehistoric_Era | Farming beginnings, domestication, settlement, population growth
 - [x] **Bronze_Age.md** | Ancient_History/Prehistoric_Era | Metal working, trade networks, early kingdoms, technological advance
-- [ ] **Iron_Age.md** | Ancient_History/Prehistoric_Era | Superior tools, military advantage, cultural development, writing systems
-- [ ] **Mesopotamia.md** | Ancient_History/Early_Civilizations | Sumerians, Babylonians, cuneiform, first cities, Hammurabi's Code
-- [ ] **Ancient_Egypt.md** | Ancient_History/Early_Civilizations | Pharaohs, pyramids, Nile River, hieroglyphs, mummification, dynasties
+- [x] **Iron_Age.md** | Ancient_History/Prehistoric_Era | Superior tools, military advantage, cultural development, writing systems
+- [x] **Mesopotamia.md** | Ancient_History/Early_Civilizations | Sumerians, Babylonians, cuneiform, first cities, Hammurabi's Code
+- [x] **Ancient_Egypt.md** | Ancient_History/Early_Civilizations | Pharaohs, pyramids, Nile River, hieroglyphs, mummification, dynasties
 - [ ] **Indus_Valley.md** | Ancient_History/Early_Civilizations | Harappan civilization, urban planning, mysterious script, decline
 - [ ] **Ancient_China.md** | Ancient_History/Early_Civilizations | Yellow River, dynasties, Confucius, Great Wall, silk production
 - [ ] **Ancient_Greece.md** | Ancient_History/Early_Civilizations | City-states, democracy, philosophy, Olympic Games, Alexander

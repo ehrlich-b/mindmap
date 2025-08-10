@@ -3,13 +3,14 @@
 ## PRIORITY_HIGH
 
 ### Visual_Arts
+- [x] **Renaissance_Art.md** | Visual_Arts/Art_History | Rebirth of classical ideals, naturalism, humanism in art
 - [x] **Oil_Painting.md** | Visual_Arts/Painting | Traditional medium, techniques, Renaissance masters, contemporary use
 - [x] **Watercolor.md** | Visual_Arts/Painting | Transparency, flow, landscape painting, spontaneous effects
 - [x] **Acrylic_Painting.md** | Visual_Arts/Painting | Versatile modern medium, quick drying, mixed media possibilities
 - [x] **Sculpture.md** | Visual_Arts/Sculpture | Art of form and space, materials and techniques, environmental relationships
 - [x] **Abstract_Art.md** | Visual_Arts/Painting | Non-representational expression, Kandinsky to Pollock, emotional communication
-- [ ] **Portrait_Painting.md** | Visual_Arts/Painting | Human representation, psychology in art, technical challenges
-- [ ] **Landscape_Painting.md** | Visual_Arts/Painting | Nature representation, plein air, environmental awareness
+- [x] **Portrait_Painting.md** | Visual_Arts/Painting | Human representation, psychology in art, technical challenges
+- [x] **Landscape_Painting.md** | Visual_Arts/Painting | Nature representation, plein air, environmental awareness
 - [ ] **Still_Life.md** | Visual_Arts/Painting | Object arrangement, symbolism, technical study, Dutch masters
 - [ ] **History_of_Photography.md** | Visual_Arts/Photography | Camera obscura to digital, technical evolution, artistic development
 - [ ] **Portrait_Photography.md** | Visual_Arts/Photography | Human character capture, lighting, psychological depth

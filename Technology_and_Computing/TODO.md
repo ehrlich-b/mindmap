@@ -17,7 +17,7 @@
 
 ### Programming - Paradigms
 - [ ] **Object_Oriented.md** | Programming/Paradigms | Classes, inheritance, encapsulation
-- [ ] **Functional_Programming.md** | Programming/Paradigms | Immutability, pure functions, composition
+- [x] **Functional_Programming.md** | Programming/Paradigms | Immutability, pure functions, composition
 - [ ] **Procedural.md** | Programming/Paradigms | Step-by-step instruction execution
 - [ ] **Declarative.md** | Programming/Paradigms | Describing what, not how
 - [ ] **Event_Driven.md** | Programming/Paradigms | Responding to user actions and system events
@@ -44,6 +44,7 @@
 - [ ] **Sets_and_Maps.md** | Programming/Data_Structures | Unique collections and associations
 
 ### AI_and_ML - Machine_Learning
+- [x] **Machine_Learning.md** | Artificial_Intelligence/Machine_Learning | Pattern recognition, prediction from data, algorithms
 - [ ] **Supervised_Learning.md** | AI_and_ML/Machine_Learning | Learning from labeled examples
 - [ ] **Unsupervised_Learning.md** | AI_and_ML/Machine_Learning | Finding patterns without labels
 - [ ] **Reinforcement_Learning.md** | AI_and_ML/Machine_Learning | Learning through reward and punishment

@@ -102,6 +102,41 @@ Suggests next 24 articles (2 from each domain) for balanced coverage across all 
 make next-articles
 ```
 
+#### `make reconcile-todos` / `make reconcile-todos-dry`
+**Automatically syncs TODO.md checkboxes with existing article files**. Essential tool that eliminates manual checkbox updating and prevents synchronization errors.
+
+**Key Features:**
+- Scans all domain TODO.md files for article entries
+- Checks if corresponding .md files exist in the filesystem  
+- Updates checkboxes to match actual file existence
+- ✅ Checks boxes for existing articles
+- ☐ Unchecks boxes for missing articles
+- Reports all changes made
+
+**Usage:**
+```bash
+# Preview changes without modifying files
+make reconcile-todos-dry
+
+# Apply synchronization changes
+make reconcile-todos
+```
+
+**Example Output:**
+```
+📁 Science_and_Mathematics:
+  ✓ CHECK: Thermodynamics.md
+  ☐ UNCHECK: Missing_Article.md (file not found)
+  📊 Updated 2 checkboxes
+
+📊 RECONCILIATION COMPLETE:
+  - Total checkboxes updated: 15
+  - Articles found and checked: 12  
+  - Missing articles unchecked: 3
+```
+
+**⚠️ Important:** Use this instead of manually updating checkboxes in TODO.md files. Manual updates are error-prone and this tool ensures accuracy.
+
 ### Build Commands
 
 #### `make help`
@@ -219,7 +254,10 @@ make article-todo show_completed=false          # Hide completed, show remaining
 vim Science_and_Mathematics/Physics/Classical_Mechanics/Newtons_Laws.md
 vim Technology_and_Computing/Programming/Languages/Python.md
 
-# Mark articles complete in TODO.md (change [ ] to [x])
+# ✨ AUTOMATICALLY sync TODO checkboxes with created articles
+make reconcile-todos            # Updates checkboxes to match existing files
+make reconcile-todos-dry        # Preview changes without modifying files
+
 # Check domain TODO.md for detailed specifications
 cat Science_and_Mathematics/TODO.md  # See article requirements and completion status
 ```

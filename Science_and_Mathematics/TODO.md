@@ -7,11 +7,12 @@
 - [x] **Forces_and_Motion.md** | Physics/Classical_Mechanics | How objects move and why, friction, gravity, momentum
 - [x] **Kinetic_Energy.md** | Physics/Mechanics | Energy of motion, velocity and mass relationship, conservation laws
 - [x] **Energy_Conservation.md** | Physics/Classical_Mechanics | Kinetic, potential energy and why energy is never lost
-- [ ] **Simple_Machines.md** | Physics/Classical_Mechanics | Levers, pulleys, wheels - force multiplication in daily life
+- [x] **Simple_Machines.md** | Physics/Classical_Mechanics | Levers, pulleys, wheels - force multiplication in daily life
 - [ ] **Oscillations_and_Waves.md** | Physics/Classical_Mechanics | Pendulums, springs, sound waves, and resonance
 
 ### Physics - Quantum_Mechanics
-- [ ] **Wave_Particle_Duality.md** | Physics/Quantum_Mechanics | Light and matter as both waves and particles
+- [x] **Quantum_Mechanics.md** | Physics/Modern_Physics | Wave-particle duality, uncertainty principle, quantum states
+- [x] **Wave_Particle_Duality.md** | Physics/Quantum_Mechanics | Light and matter as both waves and particles
 - [ ] **Quantum_Entanglement.md** | Physics/Quantum_Mechanics | Spooky action at a distance and quantum computing implications
 - [ ] **Uncertainty_Principle.md** | Physics/Quantum_Mechanics | Why we can't know everything simultaneously
 - [ ] **Quantum_Tunneling.md** | Physics/Quantum_Mechanics | Particles passing through barriers, enabling fusion and electronics
@@ -28,12 +29,12 @@
 ### Physics - Electromagnetism
 - [ ] **Electric_Fields.md** | Physics/Electromagnetism | Static electricity, lightning, and electric forces
 - [ ] **Magnetic_Fields.md** | Physics/Electromagnetism | Magnets, Earth's field, and MRI machines
-- [ ] **Electromagnetic_Waves.md** | Physics/Electromagnetism | Light, radio, X-rays as unified phenomenon
+- [x] **Electromagnetic_Waves.md** | Physics/Electromagnetism | Light, radio, X-rays as unified phenomenon
 - [ ] **Maxwells_Equations.md** | Physics/Electromagnetism | The four equations governing all EM phenomena
 - [ ] **Electric_Circuits.md** | Physics/Electromagnetism | Current, voltage, resistance in everyday electronics
 
 ### Mathematics - Algebra
-- [ ] **Variables_and_Equations.md** | Mathematics/Algebra | Using symbols to solve problems
+- [x] **Variables_and_Equations.md** | Mathematics/Algebra | Using symbols to solve problems
 - [ ] **Linear_Algebra.md** | Mathematics/Algebra | Vectors, matrices, and transformations
 - [ ] **Polynomials.md** | Mathematics/Algebra | Quadratics, cubics, and the fundamental theorem
 - [ ] **Groups_and_Symmetry.md** | Mathematics/Algebra | Abstract algebra and patterns in nature
@@ -47,7 +48,7 @@
 - [ ] **Series_and_Sequences.md** | Mathematics/Calculus | Infinite sums and approximations
 
 ### Mathematics - Statistics
-- [ ] **Probability_Basics.md** | Mathematics/Statistics | Chance, randomness, and prediction
+- [x] **Probability_Basics.md** | Mathematics/Statistics | Chance, randomness, and prediction
 - [ ] **Statistical_Inference.md** | Mathematics/Statistics | Drawing conclusions from data
 - [ ] **Bayesian_Statistics.md** | Mathematics/Statistics | Updating beliefs with evidence
 - [ ] **Regression_Analysis.md** | Mathematics/Statistics | Finding relationships in data
@@ -212,4 +213,3 @@
 - Link to **Philosophy_and_Cognition** for philosophy of science, mathematical philosophy
 - Link to **Health_and_Medicine** for medical physics, biochemistry applications
 - Link to **Natural_World** for applied ecology, environmental science
-- Link to **Future_and_Speculation** for theoretical physics frontiers, space exploration
