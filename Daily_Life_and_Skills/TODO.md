@@ -20,6 +20,7 @@
 - [ ] **Green_Cleaning.md** | Home_and_Living/Cleaning_and_Organization | Environmentally friendly products and methods
 
 ### Personal_Finance
+- [x] **Personal_Finance.md** | Personal_Finance | Building financial security and freedom through budgeting, saving, investing
 - [ ] **Creating_a_Budget.md** | Personal_Finance/Budgeting | Income tracking, expense categories, realistic planning
 - [ ] **Emergency_Fund.md** | Personal_Finance/Budgeting | Building financial cushion, how much to save, accessibility
 - [ ] **Debt_Management.md** | Personal_Finance/Budgeting | Strategies for paying down debt, consolidation, avoidance

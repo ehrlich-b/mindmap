@@ -6,8 +6,9 @@
 - [x] **Python.md** | Programming/Languages | Versatile scripting language for data science and web
 - [x] **JavaScript.md** | Programming/Languages | Language of the web and increasingly servers
 - [x] **Java.md** | Programming/Languages | Enterprise applications and Android development
+- [x] **C_Programming.md** | Programming/Programming_Languages | Foundation language for systems and performance-critical code
 - [ ] **C_and_CPlusPlus.md** | Programming/Languages | System programming and performance-critical code
-- [ ] **Rust.md** | Programming/Languages | Memory-safe systems programming
+- [x] **Rust.md** | Programming/Languages | Memory-safe systems programming
 - [ ] **Go.md** | Programming/Languages | Concurrent programming and cloud infrastructure
 - [ ] **TypeScript.md** | Programming/Languages | JavaScript with types for large applications
 - [ ] **SQL.md** | Programming/Languages | Database query language fundamentals
