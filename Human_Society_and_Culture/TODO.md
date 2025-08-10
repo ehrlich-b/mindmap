@@ -5,8 +5,9 @@
 ### Social_Structures - Family
 - [x] **Nuclear_Family.md** | Social_Structures/Family | Parents and children as basic unit across cultures
 - [x] **Extended_Family.md** | Social_Structures/Family | Grandparents, aunts, uncles, cousins in social structure
+- [x] **Marriage_Systems.md** | Social_Structures/Family | Cultural architecture of human partnership and kinship
 - [ ] **Marriage_and_Partnership.md** | Social_Structures/Family | Pair bonding, legal unions, cultural variations
-- [ ] **Parenting.md** | Social_Structures/Family | Child-rearing practices, attachment, development
+- [x] **Parenting.md** | Social_Structures/Family | Child-rearing practices, attachment, development
 - [ ] **Family_Dynamics.md** | Social_Structures/Family | Roles, power structures, communication patterns
 - [ ] **Single_Parent_Families.md** | Social_Structures/Family | Challenges and adaptations in solo parenting
 - [ ] **Blended_Families.md** | Social_Structures/Family | Step-families and complex household structures
@@ -50,7 +51,7 @@
 - [ ] **Workplace_Rights.md** | Economics/Labor | Safety, discrimination, organizing, benefits
 
 ### Politics - Political_Systems
-- [ ] **Democracy.md** | Politics/Political_Systems | Popular sovereignty, elections, representation, pluralism
+- [x] **Democracy.md** | Politics/Political_Systems | Popular sovereignty, elections, representation, pluralism
 - [ ] **Authoritarianism.md** | Politics/Political_Systems | Concentrated power, limited freedoms, control
 - [ ] **Totalitarianism.md** | Politics/Political_Systems | Total state control over society and individuals
 - [ ] **Monarchy.md** | Politics/Political_Systems | Hereditary rule, constitutional vs absolute power

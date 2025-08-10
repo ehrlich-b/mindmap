@@ -6,8 +6,9 @@
 - [x] **Primates.md** | Animals/Mammals | Our closest relatives, intelligence, social behavior, conservation
 - [x] **Carnivores.md** | Animals/Mammals | Cats, dogs, bears - predators and their ecological roles
 - [x] **Herbivores.md** | Animals/Mammals | Deer, elephants, cattle - plant-eaters and ecosystem impact
-- [ ] **Marine_Mammals.md** | Animals/Mammals | Whales, dolphins, seals - ocean adaptations and intelligence
-- [ ] **Rodents.md** | Animals/Mammals | Most diverse mammal group, urban adapters, disease vectors
+- [x] **Marine_Mammals.md** | Animals/Mammals | Whales, dolphins, seals - ocean adaptations and intelligence
+- [x] **Herbivores.md** | Animals/Mammals | Plant-eating mammals and ecosystem engineers
+- [x] **Rodents.md** | Animals/Mammals | Most diverse mammal group, urban adapters, disease vectors
 - [ ] **Bats.md** | Animals/Mammals | Only flying mammals, echolocation, pollination, disease concerns
 - [ ] **Marsupials.md** | Animals/Mammals | Pouched mammals, unique reproduction, Australian fauna
 - [ ] **Domestic_Animals.md** | Animals/Mammals | Dogs, cats, livestock - human-animal relationships

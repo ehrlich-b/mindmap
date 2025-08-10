@@ -6,7 +6,8 @@
 - [x] **Oil_Painting.md** | Visual_Arts/Painting | Traditional medium, techniques, Renaissance masters, contemporary use
 - [x] **Watercolor.md** | Visual_Arts/Painting | Transparency, flow, landscape painting, spontaneous effects
 - [x] **Acrylic_Painting.md** | Visual_Arts/Painting | Versatile modern medium, quick drying, mixed media possibilities
-- [ ] **Abstract_Art.md** | Visual_Arts/Painting | Non-representational expression, Kandinsky to Pollock, emotional communication
+- [x] **Sculpture.md** | Visual_Arts/Sculpture | Art of form and space, materials and techniques, environmental relationships
+- [x] **Abstract_Art.md** | Visual_Arts/Painting | Non-representational expression, Kandinsky to Pollock, emotional communication
 - [ ] **Portrait_Painting.md** | Visual_Arts/Painting | Human representation, psychology in art, technical challenges
 - [ ] **Landscape_Painting.md** | Visual_Arts/Painting | Nature representation, plein air, environmental awareness
 - [ ] **Still_Life.md** | Visual_Arts/Painting | Object arrangement, symbolism, technical study, Dutch masters
