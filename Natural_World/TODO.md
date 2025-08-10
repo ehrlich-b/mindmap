@@ -9,8 +9,8 @@
 - [x] **Marine_Mammals.md** | Animals/Mammals | Whales, dolphins, seals - ocean adaptations and intelligence
 - [x] **Herbivores.md** | Animals/Mammals | Plant-eating mammals and ecosystem engineers
 - [x] **Rodents.md** | Animals/Mammals | Most diverse mammal group, urban adapters, disease vectors
-- [ ] **Bats.md** | Animals/Mammals | Only flying mammals, echolocation, pollination, disease concerns
-- [ ] **Marsupials.md** | Animals/Mammals | Pouched mammals, unique reproduction, Australian fauna
+- [x] **Bats.md** | Animals/Mammals | Only flying mammals, echolocation, pollination, disease concerns
+- [x] **Marsupials.md** | Animals/Mammals | Pouched mammals, unique reproduction, Australian fauna
 - [ ] **Domestic_Animals.md** | Animals/Mammals | Dogs, cats, livestock - human-animal relationships
 - [ ] **Bird_Flight.md** | Animals/Birds | Aerodynamics, wing types, migration, evolution of flight
 - [ ] **Bird_Intelligence.md** | Animals/Birds | Crows, parrots, problem-solving, tool use, communication
@@ -36,7 +36,7 @@
 - [ ] **Deciduous_Trees.md** | Plants/Trees | Seasonal cycles, autumn colors, temperate adaptations
 
 ### Ecosystems
-- [ ] **Tropical_Rainforests.md** | Ecosystems/Forest_Ecosystems | Biodiversity hotspots, canopy layers, deforestation threats
+- [x] **Tropical_Rainforests.md** | Ecosystems/Forest_Ecosystems | Biodiversity hotspots, canopy layers, deforestation threats
 - [ ] **Temperate_Forests.md** | Ecosystems/Forest_Ecosystems | Seasonal cycles, deciduous/coniferous, sustainable forestry
 - [ ] **Boreal_Forests.md** | Ecosystems/Forest_Ecosystems | Northern conifers, carbon storage, climate regulation
 - [ ] **Forest_Succession.md** | Ecosystems/Forest_Ecosystems | How forests change over time, disturbance and recovery

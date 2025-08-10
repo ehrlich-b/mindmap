@@ -6,7 +6,8 @@
 - [x] **Nuclear_Family.md** | Social_Structures/Family | Parents and children as basic unit across cultures
 - [x] **Extended_Family.md** | Social_Structures/Family | Grandparents, aunts, uncles, cousins in social structure
 - [x] **Marriage_Systems.md** | Social_Structures/Family | Cultural architecture of human partnership and kinship
-- [ ] **Marriage_and_Partnership.md** | Social_Structures/Family | Pair bonding, legal unions, cultural variations
+- [x] **Marriage.md** | Social_Structures/Family | Universal social institution, cultural variations, legal frameworks
+- [x] **Marriage_Traditions.md** | Social_Structures/Family | Cultural celebrations of human union across societies
 - [x] **Parenting.md** | Social_Structures/Family | Child-rearing practices, attachment, development
 - [ ] **Family_Dynamics.md** | Social_Structures/Family | Roles, power structures, communication patterns
 - [ ] **Single_Parent_Families.md** | Social_Structures/Family | Challenges and adaptations in solo parenting

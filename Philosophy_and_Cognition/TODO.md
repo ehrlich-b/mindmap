@@ -8,8 +8,8 @@
 - [x] **Aristotle.md** | Western_Philosophy/Ancient_Philosophy | Logic, ethics, politics, and empirical observation
 - [x] **Stoicism.md** | Western_Philosophy/Ancient_Philosophy | Virtue, acceptance, and emotional resilience
 - [x] **Epicureanism.md** | Western_Philosophy/Ancient_Philosophy | Pleasure, friendship, and freedom from fear
-- [ ] **Cynicism.md** | Western_Philosophy/Ancient_Philosophy | Simplicity, authenticity, and social criticism
-- [ ] **Pre_Socratics.md** | Western_Philosophy/Ancient_Philosophy | First philosophers asking "what is everything made of?"
+- [x] **Cynicism.md** | Western_Philosophy/Ancient_Philosophy | Simplicity, authenticity, and social criticism
+- [x] **Pre_Socratics.md** | Western_Philosophy/Ancient_Philosophy | First philosophers asking "what is everything made of?"
 - [ ] **Rene_Descartes.md** | Western_Philosophy/Modern_Philosophy | Cogito ergo sum, mind-body dualism, methodic doubt
 - [ ] **John_Locke.md** | Western_Philosophy/Modern_Philosophy | Empiricism, tabula rasa, and social contract
 - [ ] **David_Hume.md** | Western_Philosophy/Modern_Philosophy | Skepticism, problem of induction, is-ought gap
@@ -33,7 +33,7 @@
 - [ ] **Zen.md** | Eastern_Philosophy/Buddhist_Philosophy | Direct pointing, sudden enlightenment, koan practice
 
 ### Ethics
-- [ ] **Utilitarianism.md** | Ethics/Normative_Ethics | Greatest good for greatest number
+- [x] **Utilitarianism.md** | Ethics/Normative_Ethics | Greatest good for greatest number
 - [ ] **Deontological_Ethics.md** | Ethics/Normative_Ethics | Duty-based ethics, categorical imperative
 - [ ] **Virtue_Ethics.md** | Ethics/Normative_Ethics | Character traits and human flourishing
 - [ ] **Care_Ethics.md** | Ethics/Normative_Ethics | Relationships, responsibility, contextual moral reasoning
@@ -53,7 +53,7 @@
 - [ ] **Set_Theory.md** | Logic_and_Reasoning/Formal_Logic | Collections, membership, Russell's paradox
 - [ ] **Proof_Theory.md** | Logic_and_Reasoning/Formal_Logic | What constitutes valid mathematical proof
 - [ ] **Completeness_Incompleteness.md** | Logic_and_Reasoning/Formal_Logic | Gödel's theorems and limits of formal systems
-- [ ] **Critical_Thinking.md** | Logic_and_Reasoning/Informal_Logic | Evaluating arguments in everyday contexts
+- [x] **Critical_Thinking.md** | Logic_and_Reasoning/Informal_Logic | Evaluating arguments in everyday contexts
 - [ ] **Fallacies.md** | Logic_and_Reasoning/Informal_Logic | Common mistakes in reasoning
 - [ ] **Rhetoric.md** | Logic_and_Reasoning/Informal_Logic | Persuasion, argumentation, public discourse
 - [ ] **Cognitive_Biases.md** | Logic_and_Reasoning/Informal_Logic | Systematic errors in human reasoning
@@ -89,7 +89,7 @@
 ### Cognitive_Science
 - [ ] **Mind_Body_Problem.md** | Cognitive_Science/Philosophy_of_Mind | How mental and physical relate
 - [ ] **Personal_Identity.md** | Cognitive_Science/Philosophy_of_Mind | What makes you "you" over time
-- [ ] **Free_Will.md** | Cognitive_Science/Philosophy_of_Mind | Do we have genuine choice?
+- [x] **Free_Will.md** | Cognitive_Science/Philosophy_of_Mind | Do we have genuine choice?
 - [ ] **Mental_Causation.md** | Cognitive_Science/Philosophy_of_Mind | How can minds cause physical events?
 - [ ] **Intentionality.md** | Cognitive_Science/Philosophy_of_Mind | How thoughts are "about" things
 - [ ] **Representation.md** | Cognitive_Science/Philosophy_of_Mind | How minds represent the world

@@ -8,9 +8,9 @@
 - [x] **Nervous_System.md** | Human_Body/Anatomy_and_Physiology | Brain, spinal cord, neurons, neurotransmitters, neurological disorders
 - [x] **Digestive_System.md** | Human_Body/Anatomy_and_Physiology | Stomach, intestines, nutrition absorption, digestive disorders
 - [x] **Musculoskeletal_System.md** | Human_Body/Anatomy_and_Physiology | Bones, muscles, joints, movement, osteoporosis, arthritis
-- [ ] **Immune_System.md** | Human_Body/Anatomy_and_Physiology | White blood cells, antibodies, infection fighting, autoimmune diseases
-- [ ] **Endocrine_System.md** | Human_Body/Anatomy_and_Physiology | Hormones, glands, metabolism, diabetes, thyroid disorders
-- [ ] **Reproductive_System.md** | Human_Body/Anatomy_and_Physiology | Male and female anatomy, fertility, sexual health, pregnancy
+- [x] **Immune_System.md** | Human_Body/Anatomy_and_Physiology | White blood cells, antibodies, infection fighting, autoimmune diseases
+- [x] **Endocrine_System.md** | Human_Body/Anatomy_and_Physiology | Hormones, glands, metabolism, diabetes, thyroid disorders
+- [x] **Reproductive_System.md** | Human_Body/Anatomy_and_Physiology | Male and female anatomy, fertility, sexual health, pregnancy
 - [ ] **Heart_Disease.md** | Human_Body/Common_Diseases | Coronary artery disease, heart attacks, prevention, treatment
 - [ ] **Cancer.md** | Human_Body/Common_Diseases | Cell growth disorders, types, causes, treatment, prevention
 - [ ] **Diabetes.md** | Human_Body/Common_Diseases | Blood sugar regulation, Type 1 vs Type 2, management, complications

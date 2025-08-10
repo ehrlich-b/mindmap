@@ -299,6 +299,113 @@ status:
 	@echo "  2. Run 'make next-articles' for balanced selection across domains"
 	@echo "  3. Start with HIGH priority articles using domain TODO.md specifications"
 
+# Reconcile TODO checkboxes with actual article files
+.PHONY: reconcile-todos
+reconcile-todos:
+	@echo "=== TODO CHECKBOX RECONCILIATION ==="
+	@echo "Syncing TODO.md checkboxes with existing article files..."
+	@echo ""
+	@total_updated=0; \
+	total_checked=0; \
+	total_unchecked=0; \
+	for domain in Science_and_Mathematics Technology_and_Computing Human_Society_and_Culture Arts_and_Expression Philosophy_and_Cognition Natural_World Health_and_Medicine Language_and_Communication History_and_Time Daily_Life_and_Skills Systems_and_Structures Future_and_Speculation; do \
+		if [ -f "$$domain/TODO.md" ]; then \
+			echo "📁 $$domain:"; \
+			domain_updated=0; \
+			temp_file="$$domain/TODO.md.tmp"; \
+			cp "$$domain/TODO.md" "$$temp_file"; \
+			while IFS= read -r line; do \
+				if echo "$$line" | grep -q "^- \[[x ]\] \*\*.*\.md\*\*"; then \
+					filename=$$(echo "$$line" | sed 's/.*\*\*\(.*\)\.md\*\*.*/\1/'); \
+					current_status=$$(echo "$$line" | sed 's/^- \[\([x ]\)\].*/\1/'); \
+					if $(FIND) "$$domain" -name "$$filename.md" -type f | grep -q "$$filename.md"; then \
+						if [ "$$current_status" = " " ]; then \
+							echo "$$line" | sed 's/^- \[ \]/- [x]/' >> "$$temp_file.new"; \
+							echo "  ✓ CHECK: $$filename.md"; \
+							domain_updated=$$((domain_updated + 1)); \
+							total_checked=$$((total_checked + 1)); \
+						else \
+							echo "$$line" >> "$$temp_file.new"; \
+						fi; \
+					else \
+						if [ "$$current_status" = "x" ]; then \
+							echo "$$line" | sed 's/^- \[x\]/- [ ]/' >> "$$temp_file.new"; \
+							echo "  ☐ UNCHECK: $$filename.md (file not found)"; \
+							domain_updated=$$((domain_updated + 1)); \
+							total_unchecked=$$((total_unchecked + 1)); \
+						else \
+							echo "$$line" >> "$$temp_file.new"; \
+						fi; \
+					fi; \
+				else \
+					echo "$$line" >> "$$temp_file.new"; \
+				fi; \
+			done < "$$temp_file"; \
+			if [ $$domain_updated -gt 0 ]; then \
+				mv "$$temp_file.new" "$$domain/TODO.md"; \
+				echo "  📊 Updated $$domain_updated checkboxes"; \
+				total_updated=$$((total_updated + domain_updated)); \
+			else \
+				rm -f "$$temp_file.new"; \
+				echo "  ✅ No updates needed"; \
+			fi; \
+			rm -f "$$temp_file"; \
+			echo ""; \
+		fi; \
+	done; \
+	echo "📊 RECONCILIATION COMPLETE:"; \
+	echo "  - Total checkboxes updated: $$total_updated"; \
+	echo "  - Articles found and checked: $$total_checked"; \
+	echo "  - Missing articles unchecked: $$total_unchecked"
+
+# Dry run of TODO reconciliation (show what would be changed)
+.PHONY: reconcile-todos-dry
+reconcile-todos-dry:
+	@echo "=== TODO CHECKBOX RECONCILIATION (DRY RUN) ==="
+	@echo "Showing what would be changed without modifying files..."
+	@echo ""
+	@total_changes=0; \
+	total_checks=0; \
+	total_unchecks=0; \
+	for domain in Science_and_Mathematics Technology_and_Computing Human_Society_and_Culture Arts_and_Expression Philosophy_and_Cognition Natural_World Health_and_Medicine Language_and_Communication History_and_Time Daily_Life_and_Skills Systems_and_Structures Future_and_Speculation; do \
+		if [ -f "$$domain/TODO.md" ]; then \
+			echo "📁 $$domain:"; \
+			domain_changes=0; \
+			while IFS= read -r line; do \
+				if echo "$$line" | grep -q "^- \[[x ]\] \*\*.*\.md\*\*"; then \
+					filename=$$(echo "$$line" | sed 's/.*\*\*\(.*\)\.md\*\*.*/\1/'); \
+					current_status=$$(echo "$$line" | sed 's/^- \[\([x ]\)\].*/\1/'); \
+					if $(FIND) "$$domain" -name "$$filename.md" -type f | grep -q "$$filename.md"; then \
+						if [ "$$current_status" = " " ]; then \
+							echo "  ✓ WOULD CHECK: $$filename.md"; \
+							domain_changes=$$((domain_changes + 1)); \
+							total_checks=$$((total_checks + 1)); \
+						fi; \
+					else \
+						if [ "$$current_status" = "x" ]; then \
+							echo "  ☐ WOULD UNCHECK: $$filename.md (file not found)"; \
+							domain_changes=$$((domain_changes + 1)); \
+							total_unchecks=$$((total_unchecks + 1)); \
+						fi; \
+					fi; \
+				fi; \
+			done < "$$domain/TODO.md"; \
+			if [ $$domain_changes -eq 0 ]; then \
+				echo "  ✅ No changes needed"; \
+			fi; \
+			total_changes=$$((total_changes + domain_changes)); \
+			echo ""; \
+		fi; \
+	done; \
+	echo "📊 SUMMARY (DRY RUN):"; \
+	echo "  - Total changes needed: $$total_changes"; \
+	echo "  - Would check: $$total_checks"; \
+	echo "  - Would uncheck: $$total_unchecks"; \
+	if [ $$total_changes -gt 0 ]; then \
+		echo ""; \
+		echo "Run 'make reconcile-todos' to apply these changes."; \
+	fi
+
 # Help target
 .PHONY: help
 help:
@@ -313,14 +420,16 @@ help:
 	@echo "  clean-dist    - Remove only the dist/ directory"
 	@echo ""
 	@echo "📋 Development targets:"
-	@echo "  outline-todo  - List folders with blank/placeholder READMEs (< 5 lines)"
-	@echo "  todo          - List leaf folders with insufficient articles (< 4 + README)"
-	@echo "  article-todo  - List articles by priority (see usage below)"
-	@echo "  priority-high - Alias for 'make article-todo priority=high' (legacy)"
-	@echo "  next-articles - Suggest next 24 articles balanced across domains"
-	@echo "  todo-refactor - Identify TODO.md files needing format refactoring"
-	@echo "  status        - Show overall project completion status"
-	@echo "  help          - Show this help message"
+	@echo "  outline-todo       - List folders with blank/placeholder READMEs (< 5 lines)"
+	@echo "  todo               - List leaf folders with insufficient articles (< 4 + README)"
+	@echo "  article-todo       - List articles by priority (see usage below)"
+	@echo "  priority-high      - Alias for 'make article-todo priority=high' (legacy)"
+	@echo "  next-articles      - Suggest next 24 articles balanced across domains"
+	@echo "  todo-refactor      - Identify TODO.md files needing format refactoring"
+	@echo "  reconcile-todos    - Sync TODO checkboxes with existing article files"
+	@echo "  reconcile-todos-dry- Show what checkbox changes would be made (dry run)"
+	@echo "  status             - Show overall project completion status"
+	@echo "  help               - Show this help message"
 	@echo ""
 	@echo "📝 Article Todo Usage:"
 	@echo "  make article-todo                   - Show ALL HIGH priority articles (default)"

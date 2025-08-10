@@ -103,6 +103,8 @@ The project includes a comprehensive Makefile with development and maintenance c
   - `make article-todo show_completed=false` - Hide completed articles, show only remaining work
   - `make article-todo limit=10` - Limit to first 10 articles per domain
 - `make next-articles` - Suggest next 24 articles (2 per domain) for balanced coverage
+- `make reconcile-todos` - **Automatically sync TODO checkboxes with existing articles (REQUIRED)**
+- `make reconcile-todos-dry` - Preview checkbox changes without modifying files
 - `make priority-high` - Legacy alias for `make article-todo priority=high`
 
 **🏗️ Build Commands:**
@@ -117,10 +119,14 @@ The project includes a comprehensive Makefile with development and maintenance c
 make status
 
 # Phase 4: Identify articles to write (NEW UNIFIED SYSTEM)
-make article-todo                    # See all 782 high-priority articles with completion tracking
-make article-todo priority=all       # Get breakdown across all priorities (H:0/782 M:0/476 L:0/102)  
+make article-todo                    # See all 718 high-priority articles with completion tracking
+make article-todo priority=all       # Get breakdown across all priorities with completion status
 make next-articles                   # Get balanced selection for next 24 articles across domains
 make article-todo show_completed=false # See only remaining work, hide completed articles
+
+# After creating articles, sync checkboxes automatically
+make reconcile-todos-dry             # Preview what checkboxes would be updated
+make reconcile-todos                 # Apply checkbox updates to match existing files
 
 # See which folders still need articles  
 make todo
@@ -139,15 +145,17 @@ After any compact or when starting a new session, ALWAYS re-read these core file
 4. `CLAUDE.md` - This file with project guidelines
 
 **Phase 4 Article Development Process:**
-1. Run `make status` to see overall completion (currently 0.1% - 1/1,360 articles)
-2. Use `make article-todo` to see all 782 high-priority articles with completion tracking  
+1. Run `make status` to see overall completion (currently 6.7% - 88/1,296 articles)
+2. Use `make article-todo` to see all 718 high-priority articles with completion tracking  
 3. Use `make next-articles` to get balanced selection of 24 articles across domains
 4. Use `make article-todo priority=all` to see breakdown across all priorities
 5. Check domain TODO.md files for detailed article specifications
 6. Create articles following established README patterns and tone
-7. **Mark articles complete** by changing `[ ]` to `[x]` in domain TODO.md files  
+7. **AUTOMATICALLY sync checkboxes** using `make reconcile-todos` (replaces manual updating)
 8. Use `make article-todo show_completed=false` to track remaining work
 9. Use `make format` to maintain consistent formatting
+
+**⚠️ IMPORTANT:** Never manually update checkboxes in TODO.md files. Always use `make reconcile-todos` to ensure accuracy and prevent synchronization errors.
 
 **Previous Development Process (Phase 3 - Complete):**
 1. ✅ Used `make outline-todo` to prioritize README completion  
