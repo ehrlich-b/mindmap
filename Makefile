@@ -437,7 +437,7 @@ help:
 	@echo "  make article-todo priority=low      - Show ALL LOW priority articles"
 	@echo "  make article-todo priority=all      - Show all priorities with completion breakdown"
 	@echo "  make article-todo limit=10          - Show first 10 articles per domain"
-	@echo "  make article-todo show_completed=false - Hide completed articles, show only remaining"
+	@echo "  make article-todo show_completed=true  - Show completed articles (default: hide completed)"
 	@echo ""
 	@echo "Requirements:"
 	@echo "  - pandoc (for markdown to HTML conversion)"
@@ -451,7 +451,7 @@ help:
 article-todo:
 	@priority="$(if $(priority),$(priority),high)"; \
 	limit="$(if $(limit),$(limit),999999)"; \
-	show_completed="$(if $(show_completed),$(show_completed),true)"; \
+	show_completed="$(if $(show_completed),$(show_completed),false)"; \
 	case "$$priority" in \
 		high) \
 			echo "=== HIGH PRIORITY ARTICLES ==="; \
@@ -538,7 +538,7 @@ article-todo:
 		echo "💡 Showing first $$limit articles per domain. Use 'make article-todo priority=$$priority' to see all."; \
 	fi; \
 	if [ "$$show_completed" != "true" ]; then \
-		echo "💡 Showing incomplete articles only. Use 'show_completed=true' to see completed articles."; \
+		echo "💡 Showing incomplete articles only. Use 'show_completed=true' to include completed articles."; \
 	fi
 
 # Legacy aliases for backward compatibility  

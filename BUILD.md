@@ -79,11 +79,11 @@ make article-todo priority=all
 # Limit to first 10 articles per domain
 make article-todo limit=10
 
-# Hide completed articles, show only remaining work
-make article-todo show_completed=false
+# Include completed articles (default: only shows remaining work)
+make article-todo show_completed=true
 
-# Combine options
-make article-todo priority=medium limit=5 show_completed=false
+# Combine options  
+make article-todo priority=medium limit=5
 ```
 
 **Completion Tracking:**
@@ -248,7 +248,7 @@ make article-todo priority=all   # See completion status across all priorities
 
 # Focus on specific priority levels
 make article-todo priority=medium               # See 476 medium priority articles
-make article-todo show_completed=false          # Hide completed, show remaining work
+make article-todo                               # Shows only remaining work (default)
 
 # Create articles based on specifications
 vim Science_and_Mathematics/Physics/Classical_Mechanics/Newtons_Laws.md
@@ -284,7 +284,7 @@ make serve
 make status
 
 # Identify remaining high-priority articles  
-make article-todo show_completed=false
+make article-todo
 
 # Get next articles to write
 make next-articles
