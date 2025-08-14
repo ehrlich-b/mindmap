@@ -13,10 +13,10 @@
 - [x] **Rene_Descartes.md** | Western_Philosophy/Modern_Philosophy | Cogito ergo sum, mind-body dualism, methodic doubt
 - [x] **John_Locke.md** | Western_Philosophy/Modern_Philosophy | Empiricism, tabula rasa, and social contract
 - [x] **David_Hume.md** | Western_Philosophy/Modern_Philosophy | Skepticism, problem of induction, is-ought gap
-- [ ] **Immanuel_Kant.md** | Western_Philosophy/Modern_Philosophy | Categorical imperative, synthetic a priori, transcendental idealism
-- [ ] **Spinoza.md** | Western_Philosophy/Modern_Philosophy | Everything is God, determinism, and geometric ethics
+- [x] **Immanuel_Kant.md** | Western_Philosophy/Modern_Philosophy | Categorical imperative, synthetic a priori, transcendental idealism
+- [x] **Spinoza.md** | Western_Philosophy/Modern_Philosophy | Everything is God, determinism, and geometric ethics
 - [ ] **Leibniz.md** | Western_Philosophy/Modern_Philosophy | Monads, best of all possible worlds, principle of sufficient reason
-- [ ] **Existentialism.md** | Western_Philosophy/Contemporary_Philosophy | Sartre, Camus, existence precedes essence
+- [x] **Existentialism.md** | Western_Philosophy/Contemporary_Philosophy | Sartre, Camus, existence precedes essence
 - [ ] **Analytic_Philosophy.md** | Western_Philosophy/Contemporary_Philosophy | Russell, Wittgenstein, logical analysis
 - [ ] **Phenomenology.md** | Western_Philosophy/Contemporary_Philosophy | Husserl, Heidegger, study of consciousness
 - [ ] **Postmodernism.md** | Western_Philosophy/Contemporary_Philosophy | Derrida, Foucault, critique of grand narratives

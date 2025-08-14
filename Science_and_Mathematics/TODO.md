@@ -15,12 +15,12 @@
 - [x] **Wave_Particle_Duality.md** | Physics/Quantum_Mechanics | Light and matter as both waves and particles
 - [x] **Quantum_Entanglement.md** | Physics/Quantum_Mechanics | Spooky action at a distance and quantum computing implications
 - [x] **Uncertainty_Principle.md** | Physics/Quantum_Mechanics | Why we can't know everything simultaneously
-- [ ] **Quantum_Tunneling.md** | Physics/Quantum_Mechanics | Particles passing through barriers, enabling fusion and electronics
-- [ ] **Schrodingers_Cat.md** | Physics/Quantum_Mechanics | The famous thought experiment and measurement problem
+- [x] **Quantum_Tunneling.md** | Physics/Quantum_Mechanics | Particles passing through barriers, enabling fusion and electronics
+- [x] **Schrodingers_Cat.md** | Physics/Quantum_Mechanics | The famous thought experiment and measurement problem
 - [ ] **Quantum_Computing_Basics.md** | Physics/Quantum_Mechanics | How quantum mechanics enables new computation
 
 ### Physics - Relativity
-- [ ] **Special_Relativity.md** | Physics/Relativity | Time dilation, length contraction, speed of light limit
+- [x] **Special_Relativity.md** | Physics/Relativity | Time dilation, length contraction, speed of light limit
 - [ ] **General_Relativity.md** | Physics/Relativity | Gravity as curved spacetime, black holes
 - [ ] **Time_Dilation.md** | Physics/Relativity | Why GPS satellites need relativistic corrections
 - [ ] **Black_Holes.md** | Physics/Relativity | Event horizons, singularities, and information paradox

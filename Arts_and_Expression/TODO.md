@@ -15,7 +15,7 @@
 - [x] **History_of_Photography.md** | Visual_Arts/Photography | Camera obscura to digital, technical evolution, artistic development
 - [x] **Portrait_Photography.md** | Visual_Arts/Photography | Human character capture, lighting, psychological depth
 - [ ] **Landscape_Photography.md** | Visual_Arts/Photography | Nature documentation, Ansel Adams, environmental awareness
-- [ ] **Street_Photography.md** | Visual_Arts/Photography | Urban life capture, candid moments, social documentation
+- [x] **Street_Photography.md** | Visual_Arts/Photography | Urban life capture, candid moments, social documentation
 - [ ] **Documentary_Photography.md** | Visual_Arts/Photography | Photojournalism, social issues, historical record
 - [ ] **Digital_Photography.md** | Visual_Arts/Photography | Technology impact, manipulation possibilities, democratization
 - [ ] **Fashion_Photography.md** | Visual_Arts/Photography | Commercial art, beauty standards, creative direction

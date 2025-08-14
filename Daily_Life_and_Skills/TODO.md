@@ -11,7 +11,7 @@
 - [x] **International_Cuisines.md** | Home_and_Living/Cooking | Italian, Asian, Mexican, French cooking fundamentals
 - [x] **Kitchen_Equipment.md** | Home_and_Living/Cooking | Essential tools, appliances, setup, maintenance
 - [x] **Preserving_Food.md** | Home_and_Living/Cooking | Freezing, canning, fermenting, extending shelf life
-- [ ] **Daily_Cleaning.md** | Home_and_Living/Cleaning_and_Organization | Routines, efficient methods, maintaining tidy spaces
+- [x] **Daily_Cleaning.md** | Home_and_Living/Cleaning_and_Organization | Routines, efficient methods, maintaining tidy spaces
 - [ ] **Deep_Cleaning.md** | Home_and_Living/Cleaning_and_Organization | Seasonal cleaning, tackling problem areas, detailed methods
 - [ ] **Organizing_Systems.md** | Home_and_Living/Cleaning_and_Organization | Decluttering, storage solutions, sustainable organization
 - [ ] **Laundry_Care.md** | Home_and_Living/Cleaning_and_Organization | Washing, drying, ironing, stain removal, fabric care

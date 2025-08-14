@@ -11,7 +11,7 @@
 - [x] **Mesopotamia.md** | Ancient_History/Early_Civilizations | Sumerians, Babylonians, cuneiform, first cities, Hammurabi's Code
 - [x] **Ancient_Egypt.md** | Ancient_History/Early_Civilizations | Pharaohs, pyramids, Nile River, hieroglyphs, mummification, dynasties
 - [x] **Indus_Valley.md** | Ancient_History/Early_Civilizations | Harappan civilization, urban planning, mysterious script, decline
-- [ ] **Ancient_China.md** | Ancient_History/Early_Civilizations | Yellow River, dynasties, Confucius, Great Wall, silk production
+- [x] **Ancient_China.md** | Ancient_History/Early_Civilizations | Yellow River, dynasties, Confucius, Great Wall, silk production
 - [x] **Ancient_Greece.md** | Ancient_History/Early_Civilizations | City-states, democracy, philosophy, Olympic Games, Alexander
 - [ ] **Roman_Empire.md** | Ancient_History/Early_Civilizations | Republic to Empire, law, engineering, Christianity, decline
 - [ ] **Greek_Philosophy.md** | Ancient_History/Classical_Antiquity | Socrates, Plato, Aristotle, rational thought, Western foundations

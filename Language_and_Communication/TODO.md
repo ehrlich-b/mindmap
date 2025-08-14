@@ -12,7 +12,7 @@
 - [x] **Sentence_Structure.md** | Linguistics/Grammar_and_Syntax | Subject-verb-object, word order variations, syntactic trees
 - [x] **Parts_of_Speech.md** | Linguistics/Grammar_and_Syntax | Nouns, verbs, adjectives, grammatical categories across languages
 - [x] **Morphology.md** | Linguistics/Grammar_and_Syntax | Word formation, prefixes, suffixes, inflection, derivation
-- [ ] **Tense_and_Aspect.md** | Linguistics/Grammar_and_Syntax | Time in language, perfect vs progressive, cross-linguistic variation
+- [x] **Tense_and_Aspect.md** | Linguistics/Grammar_and_Syntax | Time in language, perfect vs progressive, cross-linguistic variation
 - [ ] **Case_Systems.md** | Linguistics/Grammar_and_Syntax | Nominative, accusative, grammatical relations marking
 - [ ] **Questions_and_Negation.md** | Linguistics/Grammar_and_Syntax | Interrogative formation, negative constructions, universals
 - [ ] **Word_Meaning.md** | Linguistics/Semantics_and_Pragmatics | Lexical semantics, polysemy, metaphor, semantic fields

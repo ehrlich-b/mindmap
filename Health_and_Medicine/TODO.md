@@ -13,7 +13,7 @@
 - [x] **Reproductive_System.md** | Human_Body/Anatomy_and_Physiology | Male and female anatomy, fertility, sexual health, pregnancy
 - [x] **Heart_Disease.md** | Human_Body/Common_Diseases | Coronary artery disease, heart attacks, prevention, treatment
 - [x] **Cancer.md** | Human_Body/Common_Diseases | Cell growth disorders, types, causes, treatment, prevention
-- [ ] **Diabetes.md** | Human_Body/Common_Diseases | Blood sugar regulation, Type 1 vs Type 2, management, complications
+- [x] **Diabetes.md** | Human_Body/Common_Diseases | Blood sugar regulation, Type 1 vs Type 2, management, complications
 - [ ] **Hypertension.md** | Human_Body/Common_Diseases | High blood pressure, silent killer, lifestyle factors, medication
 - [ ] **Stroke.md** | Human_Body/Common_Diseases | Brain blood supply disruption, types, emergency treatment, recovery
 - [ ] **Infectious_Diseases.md** | Human_Body/Common_Diseases | Bacteria, viruses, transmission, antibiotics, vaccination

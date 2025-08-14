@@ -10,10 +10,10 @@
 - [x] **C_and_CPlusPlus.md** | Programming/Languages | System programming and performance-critical code
 - [x] **Rust.md** | Programming/Languages | Memory-safe systems programming
 - [x] **Go.md** | Programming/Languages | Concurrent programming and cloud infrastructure
-- [ ] **TypeScript.md** | Programming/Languages | JavaScript with types for large applications
-- [ ] **SQL.md** | Programming/Languages | Database query language fundamentals
+- [x] **TypeScript.md** | Programming/Languages | JavaScript with types for large applications
+- [x] **SQL.md** | Programming/Languages | Database query language fundamentals
 - [ ] **Functional_Languages.md** | Programming/Languages | Haskell, Lisp, and functional paradigm
-- [ ] **Assembly.md** | Programming/Languages | Lowest level programming above machine code
+- [x] **Assembly.md** | Programming/Languages | Lowest level programming above machine code
 
 ### Programming - Paradigms
 - [ ] **Object_Oriented.md** | Programming/Paradigms | Classes, inheritance, encapsulation

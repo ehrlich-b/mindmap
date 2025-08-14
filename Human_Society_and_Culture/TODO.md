@@ -11,11 +11,11 @@
 - [x] **Parenting.md** | Social_Structures/Family | Child-rearing practices, attachment, development
 - [x] **Family_Dynamics.md** | Social_Structures/Family | Roles, power structures, communication patterns
 - [x] **Single_Parent_Families.md** | Social_Structures/Family | Challenges and adaptations in solo parenting
-- [ ] **Blended_Families.md** | Social_Structures/Family | Step-families and complex household structures
-- [ ] **Childlessness.md** | Social_Structures/Family | Voluntary and involuntary, social implications
+- [x] **Blended_Families.md** | Social_Structures/Family | Step-families and complex household structures
+- [x] **Childlessness.md** | Social_Structures/Family | Voluntary and involuntary, social implications
 
 ### Social_Structures - Communities
-- [ ] **Rural_Communities.md** | Social_Structures/Communities | Agriculture-based societies, small-town life
+- [x] **Rural_Communities.md** | Social_Structures/Communities | Agriculture-based societies, small-town life
 - [ ] **Urban_Communities.md** | Social_Structures/Communities | City life, density, anonymity, and connection
 - [ ] **Suburban_Communities.md** | Social_Structures/Communities | Post-WWII residential patterns
 - [ ] **Intentional_Communities.md** | Social_Structures/Communities | Communes, co-housing, shared values living

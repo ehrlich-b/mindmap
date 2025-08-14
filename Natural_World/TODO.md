@@ -13,9 +13,9 @@
 - [x] **Marsupials.md** | Animals/Mammals | Pouched mammals, unique reproduction, Australian fauna
 - [x] **Domestic_Animals.md** | Animals/Mammals | Dogs, cats, livestock - human-animal relationships
 - [x] **Bird_Flight.md** | Animals/Birds | Aerodynamics, wing types, migration, evolution of flight
-- [ ] **Bird_Intelligence.md** | Animals/Birds | Crows, parrots, problem-solving, tool use, communication
-- [ ] **Raptors.md** | Animals/Birds | Eagles, hawks, owls - predatory birds and ecological roles
-- [ ] **Songbirds.md** | Animals/Birds | Diverse songs, territorial behavior, urban adaptation
+- [x] **Bird_Intelligence.md** | Animals/Birds | Crows, parrots, problem-solving, tool use, communication
+- [x] **Raptors.md** | Animals/Birds | Eagles, hawks, owls - predatory birds and ecological roles
+- [x] **Songbirds.md** | Animals/Birds | Diverse songs, territorial behavior, urban adaptation
 - [ ] **Water_Birds.md** | Animals/Birds | Ducks, geese, waders - aquatic adaptations and migration
 - [ ] **Flightless_Birds.md** | Animals/Birds/Flightless | Penguins, ostriches - convergent evolution, specialization
 - [ ] **Bird_Migration.md** | Animals/Birds | Navigation, timing, climate change impacts
